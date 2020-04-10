@@ -1,24 +1,10 @@
-# README
+# RUBITI Websites & Web Systems
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An Institutional website for Rubiti.
 
-Things you may want to cover:
+Rubiti is a tech business based in São Paulo, Brazil focused in small and cheap systems for entrepreneurs.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+www.rubiti.com
+Keep in touch at:
+Email: brandao@rubiti.com
+Facebook: rubitisoft
