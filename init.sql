@@ -1,0 +1,2 @@
+CREATE USER brandao;
+ALTER USER brandao WITH SUPERUSER;
