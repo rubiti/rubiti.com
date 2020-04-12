@@ -9,5 +9,4 @@ require("@rails/activestorage").start()
 require("channels")
 
 import "../../stylesheets/admin/admin";
-
 import "./admin_script";

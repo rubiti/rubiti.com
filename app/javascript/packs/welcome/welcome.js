@@ -8,5 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
+import "@fortawesome/fontawesome-free/js/all";
+
 import "../../stylesheets/welcome/welcome";
 import "./welcome_script";

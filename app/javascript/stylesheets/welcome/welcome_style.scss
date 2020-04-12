@@ -6,10 +6,75 @@
 	Website: www.rubiti.com
 */
 
-header {
-  background-color: green;
+.top {
+  background-image: url('../../../assets/images/banner.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.top:before {
+  content: '';
+  background: rgba(75, 75, 93, .85);
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+}
+
+#header {
+  color: #ffffff;
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  top: 2em;
+  width: 100%;
+  z-index: 10001;
+}
+
+#header .inner {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header .logo {
+  display: inline-block;
+  font-weight: 400;
+  height: inherit;
+  left: 0;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  font-size: 1em;
+}
+
+#header .logo strong {
+  color: #ffffff;
+  font-weight: 600;
 }
 
 #banner {
-  background-color: purple;
+  padding: 8em 0 9em 0;
+  text-align: center;
+  position: relative;
+}
+
+#banner .inner {
+  border-top: 2px solid rgba(255, 255, 255, .2);
+  position: relative;
+  z-index: 10005;
+  padding-top: 8em;
+}
+
+.flex {
+  color: #fff;
+}
+
+.fas {
+  font-size: 3em;
+  color: #fff;
 }
