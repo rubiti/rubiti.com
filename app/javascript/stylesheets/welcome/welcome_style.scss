@@ -27,11 +27,11 @@
   color: #ffffff;
   cursor: default;
   height: 3.25em;
-  left: 0;
   line-height: 3.25em;
   top: 2em;
-  width: 100%;
   z-index: 10001;
+  margin: 0 1.4em;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 #header .inner {
@@ -53,28 +53,73 @@
 }
 
 #header .logo strong {
-  color: #ffffff;
   font-weight: 600;
 }
 
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+#header a:last-child {
+  float: right;
+  font-size: 1.25em;
+  margin-right: 0;
+}
+
+#header a.navPanelToggle {
+  text-decoration: none;
+  display: inline-block;
+  z-index: 10003;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+a.logo {
+  color: #ffffff;
+  font-family: 'Times Header';
+}
+
+#nav {
+  display: none;
+}
+
 #banner {
-  padding: 8em 0 9em 0;
+  padding: 8em 0 8em 0;
   text-align: center;
   position: relative;
 }
 
 #banner .inner {
-  border-top: 2px solid rgba(255, 255, 255, .2);
   position: relative;
   z-index: 10005;
   padding-top: 8em;
 }
 
-.flex {
+#banner h1 {
+  font-size: 1.6em;
+  font-weight: 400;
   color: #fff;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  padding: 0;
 }
 
-.fas {
-  font-size: 3em;
+#banner .icon {
+  color: #ffffff;
+  font-size: 2.8em;
+}
+
+#banner h3 {
+  font-weight: 400;
   color: #fff;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+#banner p {
+  font-size: 1em;
+  color: #909190;
+  margin-bottom: 1.75em;
 }
