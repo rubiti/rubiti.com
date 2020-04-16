@@ -6,6 +6,7 @@
 	Website: www.rubiti.com
 */
 
+// TOP
 .top {
   background-image: url('../../../assets/images/banner.jpg');
   background-size: cover;
@@ -24,6 +25,7 @@
   height: 100%;
 }
 
+// Header
 #header {
   color: #ffffff;
   cursor: default;
@@ -77,15 +79,21 @@
   font-size: 1.2em;
 }
 
+#header a.navPanelToggle .fa {
+  font-size: 1.25em;
+}
+
 a.logo {
   color: #ffffff;
   font-family: 'Times Header';
 }
 
+// navPanel
 #nav {
   display: none;
 }
 
+// Banner
 #banner {
   padding-bottom: 2em;
   text-align: center;
@@ -119,6 +127,7 @@ a.logo {
   margin-bottom: 1.75em;
 }
 
+// Emblema
 #emblema {
   padding: 1.5em 0;
   width: 180px;
