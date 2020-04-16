@@ -17,8 +17,7 @@
 
 .top:before {
   content: '';
-  //background: rgba(162, 52, 51, .85);
-  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  background: linear-gradient(135deg, #ce1b28 14%, #111111 74%);
   opacity: 0.6;
   position: absolute;
   width: 100%;
@@ -88,15 +87,9 @@ a.logo {
 }
 
 #banner {
-  padding: 8em 0 8em 0;
+  padding-bottom: 2em;
   text-align: center;
   position: relative;
-}
-
-#banner .inner {
-  position: relative;
-  z-index: 10005;
-  padding-top: 8em;
 }
 
 #banner h1 {
@@ -124,4 +117,10 @@ a.logo {
   font-size: 1em;
   color: #e6e6e6;
   margin-bottom: 1.75em;
+}
+
+#emblema {
+  padding: 1.5em 0;
+  width: 180px;
+  height: 180px;
 }

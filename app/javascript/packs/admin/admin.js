@@ -10,3 +10,5 @@ require("channels")
 
 import "../../stylesheets/admin/admin";
 import "./admin_script";
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';

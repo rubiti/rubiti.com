@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 2.7'
 # gem "font-awesome-rails" is font awesome 5 gem bundled for rails asset pipeline
 gem "font-awesome-rails"
 
+# Embed SVG documents in your Rails views and style them with CSS
+gem 'inline_svg'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
