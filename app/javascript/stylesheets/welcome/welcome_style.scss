@@ -15,7 +15,6 @@
   background-repeat: no-repeat;
   position: relative;
 }
-
 .top:before {
   content: '';
   background: linear-gradient(135deg, #ce1b28 14%, #111111 74%);
@@ -36,12 +35,10 @@
   margin: 0 1.4em;
   border-bottom: 2px solid rgb(255, 255, 255);
 }
-
 #header .inner {
   margin: 0 auto;
   position: relative;
 }
-
 #header .logo {
   display: inline-block;
   font-weight: 400;
@@ -54,42 +51,62 @@
   top: 0;
   font-size: 1em;
 }
-
 #header .logo strong {
   font-weight: 600;
 }
-
-#header a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1em;
-}
-
-#header a:last-child {
-  float: right;
-  font-size: 1.25em;
-  margin-right: 0;
-}
-
-#header a.navPanelToggle {
-  text-decoration: none;
-  display: inline-block;
-  z-index: 10003;
-  color: #ffffff;
-  font-size: 1.2em;
-}
-
-#header a.navPanelToggle .fa {
-  font-size: 1.25em;
-}
-
 a.logo {
   color: #ffffff;
   font-family: 'Times Header';
 }
 
 // navPanel
-#nav {
+.sidebarIconToggle {
+  float: right;
+  font-size: 1.25em;
+  margin-right: 0;
+}
+#sidebarMenu {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  width: 250px;
+  margin-top: 50px;
+  transform: translateX(250px);
+  transition: transform 250ms ease-in-out;
+  background: blue;
+  z-index: 10010;
+}
+.sidebarMenuInner {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid red;
+}
+.sidebarMenuInner li {
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid red;
+}
+.sidebarMenuInner li span {
+  display: block;
+  font-size: 14px;
+}
+.sidebarMenuInner li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
   display: none;
 }
 
