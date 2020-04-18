@@ -6,6 +6,8 @@
 	Website: www.rubiti.com
 */
 
+body {font: 100% verdana, arial, tahoma, sans-serif;}
+
 // TOP
 .top {
   background-image: url('../../../assets/images/cidade.jpg');
@@ -17,7 +19,7 @@
 }
 .top:before {
   content: '';
-  background: linear-gradient(135deg, #ce1b28 14%, #111111 74%);
+  background: linear-gradient(135deg, #ce1b28 16%, #111111 74%);
   opacity: 0.6;
   position: absolute;
   width: 100%;
@@ -75,7 +77,6 @@ a.logo {
   transform: translateX(250px);
   transition: transform 250ms ease-in-out;
   z-index: 10010;
-  transition: transform 250ms ease-in-out;
   background:#701111;
 }
 .sidebarMenuInner {
@@ -148,3 +149,53 @@ input[type=checkbox] {
   width: 180px;
   height: 180px;
 }
+
+//Highlights
+.wrapper {
+  padding: 2rem 0 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+  .wrapper:before {
+    content: ' ';
+    background-image: url('../../../assets/images/predio.jpg');
+    opacity: 0.1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+  }
+.special {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+  .special h2 {
+    font-size: 1.8em;
+    padding: 0 2em 1em 2em;
+    text-transform: uppercase;
+  }
+  .special p {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3rem;
+  }
+.highlights {
+  width: 100%;
+  margin: 2.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+  .highlights .content {
+    background: #ffffff;
+    margin: 2em;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+  }
