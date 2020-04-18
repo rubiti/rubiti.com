@@ -199,7 +199,8 @@ input[type=checkbox] {
     margin-bottom: 2em;
     margin-left: 3em;
     margin-right: 4em;
-    border-radius: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.050);
   }
   .highlights .icon {
     font-size: 3em;
