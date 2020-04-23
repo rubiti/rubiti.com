@@ -1,96 +1,215 @@
-  <section class="top">
-    <!-- Header -->
-    <header id="header">
-      <div class="inner">
-        <a href="#" class="logo">
-          <strong>RUBITI</strong>
-          Sites & Sistemas Web
-        </a>
-        <input type="checkbox" id="openSidebarMenu">
-        <label for="openSidebarMenu" class="sidebarIconToggle">
-          <i class="fas fa-bars"></i>
-        </label>
-        <nav id="sidebarMenu">
-          <ul class="sidebarMenuInner">
-            <a href="#">
-              <img src="<%= asset_pack_path 'media/packs/welcome/images/rubiti_240.png' %>" id="logo_menu" />
-            </a>
-            <li><i class="icon fas fa-home"></i><a href="#">Home</a></li>
-            <li><i class="icon fas fa-fire-alt"></i><a href="#">Tendências</a></li>
-            <li><i class="icon fas fa-address-card"></i><a href="#">Contato</a></li>
+    <section class="top">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <a href="#" class="logo">
+            <strong>rubiti</strong>
+            sistemas web
+          </a>
+          <input type="checkbox" id="openSidebarMenu">
+          <label for="openSidebarMenu" class="sidebarIconToggle">
+            <i class="fa fa-bars"></i>
+          </label>
+          
+          <!-- Sidebar Menu -->
+          <nav id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+              <div class="sidebarMenuInner-icon">
+                <input type="checkbox" id="openSidebarMenu">
+                <label for="openSidebarMenu" class="sidebarIconToggle">
+                  <i class="fa fa-times"></i>
+                </label>
+              </div>
+              <a href="#">
+                <img src="<%= asset_pack_path 'media/packs/welcome/images/rubiti_240.png' %>" id="logo_menu" />
+              </a>
+              <li><i class="icon fas fa-home"></i><a href="#">Home</a></li>
+              <li><i class="icon fas fa-satellite"></i><a href="#wrapper">Tecnologias</a></li>
+              <li><i class="icon far fa-comments"></i><a href="#contact">Contato</a></li>
+              <li><i class="icon fas fa-address-card"></i><a href="#footer">Informações</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Topbar Menu -->
+        <nav id="topNav">
+          <ul>
+            <li><a href="#footer">Informações</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#">Home</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
-    
-    <div id="banner">
-      <img src="<%= asset_pack_path 'media/packs/welcome/images/rubiti_240.png' %>" id="emblema" />
-      <div class="flex">
+      </header>
+      
+      <div id="banner">
+        <img src="<%= asset_pack_path 'media/packs/welcome/images/rubiti_240.png' %>" id="emblema" />
         <div>
-          <span class="icon fab fa-digital-ocean"></span>
-          <h3>Aliquam</h3>
-          <p>Suspendisse amet ullamco</p>
-        </div>
-
-        <div>
-          <span class="icon fas fa-check-double"></span>
-          <h3>Aliquam</h3>
-          <p>Suspendisse amet ullamco</p>
-        </div>
-
-        <div>
-          <span class="icon fas fa-laptop-code"></span>
-          <h3>Aliquam</h3>
-          <p>Suspendisse amet ullamco</p>
+          <div class="banner-row">
+            <span class="icon fa fa-lightbulb"></span>
+            <h3>Aliquam</h3>
+            <p>Suspendisse amet ullamco</p>
+          </div>
+          <div class="banner-row">
+            <span class="icon fas fa-bullhorn"></span>
+            <h3>Aliquam</h3>
+            <p>Suspendisse amet ullamco</p>
+          </div>
+          <div class="banner-row">
+            <span class="icon fab fa-cloudversify"></span>
+            <h3>Aliquam</h3>
+            <p>Suspendisse amet ullamco</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  
+    <!-- Highlights -->
+    <section class="wrapper" id="wrapper">
+      <div class="inner">
+        <header class="special">
+          <h2>Sem Turpis Amet Semper</h2>
+          <p> Parágrafo p In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+        </header>
+        <div class="highlights">
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fa fa-barcode"></span>
+                <h3>Feugiat consequat</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fab fa-digital-ocean"></span>
+                <h3>Feugiat consequat two</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon far fa-smile"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fa fa-recycle"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fas fa-code-branch"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+          <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fas fa-wallet"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+           <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fa fa-recycle"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+           <section class="high">
+            <div class="content">
+              <header>
+                <span class="icon fa fa-recycle"></span>
+                <h3>Feugiat consequat three</h3>
+              </header>
+              <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+		</section>
+		
+		<!-- CTA -->
+		<section id="cta" class="wrapper_cta">
+			<div class="inner_cta">
+				<h2>
+					Curabitur ullamcorper ultricies
+				</h2>
+				<p>
+					Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.
+				</p>
+			</div>
+		</section>
 
-  <!-- Highlights -->
-  <section class="wrapper">
-    <div class="inner">
+    <!-- contact -->
+    <section class="wrapper" id="contact">
       <header class="special">
-        <h2>Sem Turpis Amet Semper</h2>
-        <p> Parágrafo p In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+        <h2>Contate-nos!</h2>
+        <p>In arcu accumsan arcu adipiscing accumsan.</p>
       </header>
       <div class="highlights">
-        <section>
-          <div class="content">
-            <header>
-              <span class="icon fas fa-link"></span>
-              <h3>Feugiat consequat</h3>
-            </header>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
-          </div>
-        </section>
-        <section>
-          <div class="content">
-            <header>
-              <span class="icon fab fa-linux"></span>
-              <h3>Feugiat consequat two</h3>
-            </header>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
-          </div>
-        </section>
-        <section>
-          <div class="content">
-            <header>
-              <span class="icon fab fa-sketch"></span>
-              <h3>Feugiat consequat three</h3>
-            </header>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
-          </div>
-        </section>
-        <section>
-          <div class="content">
-            <header>
-              <span class="icon far fa-credit-card"></span>
-              <h3>Feugiat consequat three</h3>
-            </header>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo.</p>
-          </div>
+        <section class="contact">
+          <form action="#">
+            <label class="contact-fields">Seu nome:</label>
+            <input type="text" placeholder="Seu nome" class="contact-fields">
+            <label class="contact-fields">Seu email:</label>
+            <input type="email" placeholder="Seu email" class="contact-fields">
+            <label class="contact-fields">Assunto:</label>
+            <input type="text" placeholder="Assunto" class="contact-fields">
+            <label class="contact-fields">Mensagem:</label>
+            <textarea type="text" placeholder="Mensagem" class="contact-fields"></textarea>
+            <input type="submit" value="Submit" class="button contact-fields">
+          </form>
         </section>
       </div>
-    </div>
-  </section>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="content">
+          <section class="resp-footer resp-footer-full">
+            <h3>Accumsan montes viverra</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis magni neque explicabo nam suscipit odio perferendis velit debitis, doloribus aut fugit blanditiis cum earum vel voluptatibus, expedita a deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ab perferendis ex dolorem ratione, quia commodi at exercitationem illum id? Sint inventore ullam nobis eius commodi blanditiis earum exercitationem suscipit.</p>
+          </section>
+          <section class="resp-footer resp-footer-full">
+            <h4>Lorem ipsum dolor sit</h4>
+            <ul class="alt">
+              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            </ul>
+          </section>
+          <section class="resp-footer-full">
+            <h4>Magna sed ipsum</h4>
+            <ul class="plain">
+							<li><a href="https://www.facebook.com/rubitisoft/"><i class="icon fab fa-facebook">&nbsp;</i>Facebook</a></li>
+							<li><a href="https://www.linkedin.com/company/rubiti/"><i class="icon fab fa-linkedin-in">&nbsp;</i>Linkedin</a></li>
+							<li><a href="https://github.com/rubiti"><i class="icon fab fa-github">&nbsp;</i>Github</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="copyright">
+          &copy;<a href="https://rubiti.com">rubiti</a> sistemas web
+        </div>
+      </div>
+    </footer>
