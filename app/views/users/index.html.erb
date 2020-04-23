@@ -1,0 +1,32 @@
+<% if current_user %>
+    Logged in as <%= current_user.email %>.
+    <%= link_to "Log Out", logout_path %>
+  <% else %>
+    <%= link_to "Sign Up", signup_path %> or
+    <%= link_to "Log In", login_path %>
+<% end %>
+
+<h1>Listing Users</h1>
+ 
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>ADMIN</th>
+    <th>EMAIL</th>
+  </tr>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= user.name %></td>
+      <td><%= user.admin %></td>
+      <td><%= user.email %></td>
+      <td><%= link_to 'Mostrar', user_path(user) %></td>
+      <td><%= link_to 'Editar', edit_user_path(user) %></td>
+      <td><%= link_to 'Destroy', user_path(user), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse usuário?' } %></td>
+    </tr>
+    </tr>
+  <% end %>
+</table>
+<br>
+<td><%= link_to 'Cadastrar Novo Usuário', new_user_path %></td>
