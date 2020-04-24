@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     user = User.find_by_email(params[:email])
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to admin_index_path, notice: 'Logado.'
+      redirect_to admin_path, notice: 'Logado.'
     else
       flash.now.alert = "Email ou senha incorretos."
       render 'new'
