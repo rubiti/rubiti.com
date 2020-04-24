@@ -1,7 +1,5 @@
-//= require rails-ujs
-//= require activestorage
-//= require turbolinks
-//= require ../welcome
+//= require jquery
+//= require jquery_ujs
 
 require("@rails/ujs").start()
 require("turbolinks").start()

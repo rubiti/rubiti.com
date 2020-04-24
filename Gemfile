@@ -22,9 +22,14 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 
-
 # Simple authorization solution for Rails. All permissions are stored in a single location
 gem 'cancancan', '~> 3.1'
+
+# A rack middleware for throttling and blocking abusive requests
+gem 'rack-attack', '~> 6.2', '>= 6.2.2'
+
+# This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

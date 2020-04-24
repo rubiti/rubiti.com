@@ -13,6 +13,14 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :admin %><br />
+    <%= f.check_box :admin %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
@@ -24,6 +32,5 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation %>
   </div>
-  <div class="actions"><%= f.submit "Sign Up" %></div>
+  <div class="actions"><%= f.submit "Registrar" %></div>
 <% end %>
-
