@@ -22,9 +22,6 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 
-# Simple authorization solution for Rails. All permissions are stored in a single location
-gem 'cancancan', '~> 3.1'
-
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
