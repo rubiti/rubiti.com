@@ -25,9 +25,6 @@ gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 # Simple authorization solution for Rails. All permissions are stored in a single location
 gem 'cancancan', '~> 3.1'
 
-# A rack middleware for throttling and blocking abusive requests
-gem 'rack-attack', '~> 6.2', '>= 6.2.2'
-
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
