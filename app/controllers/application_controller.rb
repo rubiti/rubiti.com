@@ -9,7 +9,12 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def authorize
-    redirect_to root_path, alert: "Not authorized" if current_user.nil?
+    redirect_to root_path, alert: "Não autorizado." if current_user.nil?
+  end
+
+  def authorize_admin
+    redirect_to root_path, alert: "Não autorizado." unless
+     current_user.admin?
   end
 
 end
