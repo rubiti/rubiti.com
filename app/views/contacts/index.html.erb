@@ -1,0 +1,23 @@
+<h1>Listing Emails</h1>
+ 
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>EMAIL</th>
+    <th>MESSAGE</th>
+    <th>CRIADO EM</th>
+  </tr>
+  <% @contacts.each do |contact| %>
+    <tr>
+      <td><%= contact.id %></td>
+      <td><%= contact.name %></td>
+      <td><%= contact.email %></td>
+      <td><%= contact.message %></td>
+      <td><%= contact.created_at %></td>
+      <td><%= button_to 'Destroy', contact_path(contact), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse email?' } %></td>
+    </tr>
+    </tr>
+  <% end %>
+</table>
+<br>

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :users
   resources :sessions
 
-  resources :contacts
+  resources :contacts#, only: [:index, :destroy, :new, :create]
 
   get 'admin', to: 'admin#index'
   root to: 'welcome#index'

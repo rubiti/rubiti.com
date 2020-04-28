@@ -1,6 +1,10 @@
 class ContactsController < ApplicationController
 
   layout 'mailer'
+
+  def index
+    @contacts = Contact.all
+  end
   
   def new
     @contact = Contact.new
@@ -17,7 +21,10 @@ class ContactsController < ApplicationController
     end
   end
 
-  def thanks
+  def destroy
+    @contact = Contact.find(params[:id])
+    @contact.destroy
+    redirect_to contacts_path
   end
 
   private
