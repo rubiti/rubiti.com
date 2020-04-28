@@ -25,6 +25,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
 # gem "font-awesome-rails" is font awesome 5 gem bundled for rails asset pipeline
 gem "font-awesome-rails"
 

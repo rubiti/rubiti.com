@@ -1,26 +1,29 @@
-class WelcomeController < ApplicationController
+class ContactsController < ApplicationController
+
+  layout 'mailer'
   
-  layout 'welcome'
-
-  def index
-  end
-
   def new
     @contact = Contact.new
   end
 
   def create
-    @contact = Contact.new(params[:contact])
+    @contact = Contact.new(contact_params)
 
     if @contact.save
       ContactMailer.send_email(@contact).deliver
-      render :thanks
+      redirect_to root_path
     else
       redirect_to root_url, notice: 'Email enviado com sucesso!'
     end
   end
 
   def thanks
+  end
+
+  private
+
+  def contact_params
+    params.require(:contact).permit(:name, :email, :message)
   end
 
 end

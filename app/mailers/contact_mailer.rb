@@ -1,9 +1,11 @@
 class ContactMailer < ApplicationMailer
+  
   default :from => "contato@rubiti.com"
 
-  def send_email
-    mail(:to => "andersonbrandaolustosa@gmail.com", :subject => "Aí sim hein", :body => "Obrigado")
+  layout "mailer"
+
+  def send_email(contact)
+    @contact = contact
+    mail(:to => "andersonbrandaolustosa@gmail.com", :subject => "Você tem um novo email de rubiti.com")
   end
 end
-
-#ContactMailer.send_email.deliver
