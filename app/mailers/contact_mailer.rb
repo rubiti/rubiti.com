@@ -6,4 +6,4 @@ class ContactMailer < ApplicationMailer
   end
 end
 
-ContactMailer.send_email.deliver
+#ContactMailer.send_email.deliver

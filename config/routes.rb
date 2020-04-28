@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   
   resources :users
   resources :sessions
-  
+
   get 'admin', to: 'admin#index'
   root to: 'welcome#index'
 end
