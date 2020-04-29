@@ -2,6 +2,8 @@ class ContactsController < ApplicationController
 
   layout 'mailer'
 
+  before_action :authorize, only: [:index]
+
   def index
     @contacts = Contact.all
   end
