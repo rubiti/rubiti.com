@@ -231,7 +231,8 @@ input[type=checkbox] {
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
+  text-align: center;
+  font-weight: bold;
 }	
 	.wrapper_cta {
 		padding: 8rem 0 6rem 0;
@@ -264,6 +265,7 @@ label {
   box-sizing: border-box;
   padding-bottom: .6em;
   transition: all 1.5s;
+  margin-top: 0.5em;
 }
 input, textarea {
   background: #d3d3d3;
@@ -271,6 +273,8 @@ input, textarea {
   border-radius: 5px;
   border: 3px solid transparent;
   margin-bottom: 15px;
+  font-family: inherit;
+  font-size: 1em;
 }
 textarea:focus {
   border: 2px solid #ce1b28;
@@ -326,19 +330,17 @@ textarea {
     vertical-align: top;
     border-bottom: 0.1em solid #888888;
     padding-bottom: 1em;
+    color: #888888;
   }
   #footer .icon {
     color: #ffffff;
-    border: 0.5em solid #000000;
-    border-radius: 50%;
     margin-right: 1em;
   }
   .plain li {
     margin-bottom: 1.3em;
     background-color: #000000;
+    padding: .5em;
   }
-
-/* Footer */
 .copyright {
   border-top: 0.1em solid #888888;
   margin-top: 3em;
@@ -346,9 +348,9 @@ textarea {
   font-size: 0.8em;
   text-align: center;
 }
-.copyright a {
-  color: #701111 !important;
-}
+  .copyright a {
+    color: #701111 !important;
+  }
 
 /* media queries */
 @media screen and (min-width: 450px) {
@@ -423,6 +425,11 @@ textarea {
   .copyright {
     font-size: 1.2em;
   }
+  .resp-footer-full {
+    width: 30%;
+    margin: 1%;
+    float: left;
+   } 
 }
 @media screen and (min-width: 1430px) {
   .resp-footer-full {
