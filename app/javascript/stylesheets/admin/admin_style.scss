@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
+/* ==================================================================
+Theme Name: Rubiti Institutional
+Author: Anderson Brandão Lustosa
+E-mail: brandao@rubiti.com
+-- LINKS --
+Website: http://www.rubiti.com
+github: @abrandao @rubiti
+================================================================== */
+
+body, input, select, textarea {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #701111;
+  padding: 20px 20px 40px 20px;
+}
+.sidebar .icon {
+  padding-right: 1em;
+}
+.sidebar li {
+  font-weight: bold;
+  padding: 3px;
+  cursor: pointer;
+  border-bottom: 1px solid #d5baba;
+  font-size: 1.3em;
+}
+.sidebar a {
+  display: block;
+  font-weight: bold;
+  padding: 16px;
+  text-decoration: none;
+  color: #d5baba;
+}
+.sidebar img {
+  width: 7em;
+  padding-bottom: .8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+/* Media queries */
+@media screen and (min-width: 400px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+  }
+  .sidebar img {
+    display: none;
+  }
+  .sidebar .icon {
+    display: none;
+  }
+  .sidebar li {
+    border: none;
+    font-size: .9em;
+    padding: 0;
+  }
+  .sidebar li a {
+    float: left;
+  }
+}
+@media screen and (min-width: 700px) {
+  .sidebar {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+  }
+  .sidebar img {
+    width: 7em;
+    padding-bottom: .8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sidebar .icon {
+    display: inline;
+  }
+  .sidebar li {
+    padding: 3px;
+    font-size: 1.3em;
+  }
+  .sidebar li a {
+    border-bottom: 1px solid #d5baba;
+    float: initial;
+  }
+  div.content {
+    margin-left: 280px;
+    padding: 5px 16px;
+  }
+}
