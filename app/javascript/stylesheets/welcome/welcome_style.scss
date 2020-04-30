@@ -178,6 +178,8 @@ input[type=checkbox] {
     height: 100%;
     z-index: -1;
     position: absolute;
+
+    
   }
 .special {
   text-align: center;
@@ -204,7 +206,7 @@ input[type=checkbox] {
     background: #fff;
     text-align: center;
     height: 100%;
-    padding: 2em;
+    padding: 1.3em;
     margin: 2em;
     border-radius: 6px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.050);
