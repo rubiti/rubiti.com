@@ -15,7 +15,7 @@ body, input, select, textarea {
 
 /* Top */
 .top {
-  background-image: url('../../../assets/images/cidade_longe.jpg');
+  background-image: url('../../images/cidade_longe.jpg');
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -165,7 +165,7 @@ input[type=checkbox] {
 }
   .wrapper:before {
     content: ' ';
-    background-image: url('../../../assets/images/predio.jpg');
+    background-image: url('../../images/predio.jpg');
     opacity: 0.06;
     background-size: cover;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@ input[type=checkbox] {
 	background-color: #ce1b28;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed;
-	background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../../assets/images/cta01.jpg');
+	background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../images/cta01.jpg');
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -399,13 +399,13 @@ textarea {
     display: inline-block;
   }
   .top {
-    background-image: url('../../../assets/images/predio_full.jpg');
+    background-image: url('../../images/predio_full.jpg');
   }
   .wrapper:before {
-    background-image: url('../../../assets/images/predio_1362_864.jpg');
+    background-image: url('../../images/predio_1362_864.jpg');
   }
   #cta {
-    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../../assets/images/cta01_1366x1041.jpg');
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../images/cta01_1366x1041.jpg');
   }
   .resp-footer {
     width: 44%;
@@ -415,14 +415,14 @@ textarea {
 }
 @media screen and (min-width: 1280px) {
   .top {
-    background-image: url('../../../assets/images/predio_full.jpg');
+    background-image: url('../../images/predio_full.jpg');
     font-size: 1.4em;
   }
   #cta {
-    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../../assets/images/cta01_full.jpg');
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../../images/cta01_full.jpg');
   }
   .wrapper:before {
-    background-image: url('../../../assets/images/predio_full.jpg');
+    background-image: url('../../images/predio_full.jpg');
   }
   .copyright {
     font-size: 1.2em;

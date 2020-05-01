@@ -13,3 +13,5 @@ import 'regenerator-runtime/runtime';
 import "@fortawesome/fontawesome-free/js/all";
 import "../../stylesheets/welcome/welcome";
 import "./welcome_script";
+
+require.context('../../images', true)
