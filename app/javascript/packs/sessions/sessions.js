@@ -8,3 +8,6 @@ import "../../stylesheets/sessions/sessions";
 import "./sessions_script";
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+
+// Images
+require.context('../../images', true)

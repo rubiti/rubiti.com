@@ -1,5 +1,3 @@
-<h1>Sign Up</h1>
-
 <%= form_for @user do |f| %>
   <% if @user.errors.any? %>
     <div class="error_messages">
@@ -12,25 +10,29 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :admin %><br />
-    <%= f.check_box :admin %>
+  <div class="imgcontainer">
+    
+    <img src="<%= asset_pack_path 'media/images/rubiti_240.png' %>" alt="logo rubiti" class="avatar" />
+
   </div>
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password %>
-  </div>
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation %>
-  </div>
-  <div class="actions"><%= f.submit "Registrar" %></div>
+  <div class="container">
+    
+    <h2 class="h2">Registro de usuário</h2>
+    <div class="check">
+      <%= f.check_box :admin, class: "check" %>
+      <%= f.label :admin, "Admin?" %>
+    </div>
+    <%= f.label :name, "Usuário" %>
+    <%= f.text_field :name, placeholder: 'Nome de usuário' %> 
+  
+    <%= f.label :email, "Email" %>
+    <%= f.text_field :email, placeholder: 'Email do usuário' %>
+  
+    <%= f.label :password, "Senha" %>
+    <%= f.password_field :password, placeholder: 'Senha' %>
+  
+    <%= f.label :password_confirmation, "Senha de confirmação" %>
+    <%= f.password_field :password_confirmation, placeholder: 'Senha de confirmação' %>
+  
+    <%= f.submit "Registrar", class: "button" %>
 <% end %>

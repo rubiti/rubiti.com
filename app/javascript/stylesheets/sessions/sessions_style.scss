@@ -25,11 +25,15 @@ input {
 label, h2 {
   color: #fff;
 }
+.check {
+  width: auto;
+}
 .h2 {
   text-align: center;
   font-size: 1em;
   padding-bottom: 2em;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .button {
   background-color: #701111;
@@ -49,10 +53,10 @@ label, h2 {
 }
 .avatar {
   width: 35%;
-  padding-top: 6%;
+  padding-top: 3%;
 }
 .container {
-  padding: 3% 10%;
+  padding: 6% 10%;
 }
 body {
   background-color: #111111;
@@ -69,7 +73,7 @@ body {
     width: 15%;
   }
   .container {
-    padding: 2% 20%;
+    padding: 1% 20%;
   }
 }
 @media screen and (min-width: 2200px) {
