@@ -6,11 +6,11 @@
 <%= form_tag sessions_path do %>
   <div class="field">
     <%= label_tag :email, "Usuário" %><br />
-    <%= text_field_tag :email, params[:email], placeholder: 'Seu usuário', name: "name" %>
+    <%= text_field_tag :email, params[:email], placeholder: 'Seu usuário'%>
   </div>
   <div class="field">
     <%= label_tag :password, "Senha" %><br />
-    <%= password_field_tag :password, placeholder: 'Sua senha', name: 'password' %>
+    <%= password_field_tag :password, "", placeholder: 'Sua senha' %>
   </div>
   <%= submit_tag "Log In", class: 'button' %>
 <% end %>
