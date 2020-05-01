@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
+/* ==================================================================
+Theme Name: Rubiti Institutional
+Author: Anderson Brandão Lustosa
+E-mail: brandao@rubiti.com
+-- LINKS --
+Website: http://www.rubiti.com
+github: @abrandao @rubiti
+================================================================== */
+
+body, input {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label, h2 {
+  color: #fff;
+}
+.h2 {
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 2em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: #701111;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  opacity: .8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.avatar {
+  width: 35%;
+  padding-top: 6%;
+}
+.container {
+  padding: 3% 10%;
+}
+body {
+  background-color: #111111;
+}
+
+/* Media queries */
+@media screen and (min-width: 600px) {
+  .avatar {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .avatar {
+    width: 15%;
+  }
+  .container {
+    padding: 2% 20%;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .avatar {
+    width: 5%;
+  }
+  .container {
+    padding: 2% 30%;
+  }
+}

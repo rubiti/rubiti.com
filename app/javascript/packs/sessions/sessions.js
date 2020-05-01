@@ -4,7 +4,7 @@ require("@rails/activestorage").start()
 require("channels")
 
 import "@fortawesome/fontawesome-free/js/all";
-import "../../stylesheets/admin/admin";
-import "./admin_script";
+import "../../stylesheets/sessions/sessions";
+import "./sessions_script";
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
