@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   
-  #before_action :authorize
+  before_action :authorize_admin
 
   layout 'admin'
   layout 'sessions', only: [:new]
