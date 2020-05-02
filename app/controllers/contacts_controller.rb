@@ -1,6 +1,7 @@
 class ContactsController < ApplicationController
-
+  
   layout 'mailer'
+  layout 'admin', only: [:index]
 
   before_action :authorize, only: [:index]
 
