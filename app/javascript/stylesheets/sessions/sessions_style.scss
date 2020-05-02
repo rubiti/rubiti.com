@@ -10,8 +10,9 @@ Website: http://www.rubiti.com
 github: @abrandao @rubiti
 ================================================================== */
 
-body, input {
+body, input, button {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 input {
@@ -44,8 +45,10 @@ label, h2 {
   cursor: pointer;
   width: 100%;
 }
-.button:hover {
-  opacity: .8;
+.button:focus, .button:hover {
+  background-color: #fff;
+  color: #701111;
+  font-weight: bold;
 }
 .imgcontainer {
   text-align: center;

@@ -19,7 +19,10 @@
         <li><a href="#"><i class="icon fas fa-home"></i>Home</a></li>
         <li><a href="#"><i class="icon fas fa-building"></i>Informações</a></li>
         <li><%= link_to '<i class="icon fas fa-at"></i>Emails'.html_safe, contacts_path %></li>
-        <li><%= link_to '<i class="icon fas fa-users"></i>Usuários'.html_safe, users_path %></li>
+        <% if current_user.admin == true %>
+          <li><%= link_to '<i class="icon fas fa-users"></i>Usuários'.html_safe, users_path %></li>
+        <% end %>
+
       </ul>
     </div>
     <div class="content">
