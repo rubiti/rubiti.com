@@ -12,6 +12,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import "@fortawesome/fontawesome-free/js/all";
 import "../stylesheets/welcome/welcome";
-import "../components/welcome_script";
+//import "../components/welcome_script";
 
 require.context('../images', true)
