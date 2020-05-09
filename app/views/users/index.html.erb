@@ -6,14 +6,17 @@
     <%= link_to "Log In", login_path %>
 <% end %>
 
-<h1>Listing Users</h1>
+<h2>Lista de Usuários</h2>
  
-<table>
-  <tr>
+<table class="table">
+  <tr class="header">
     <th>ID</th>
     <th>NAME</th>
     <th>ADMIN</th>
     <th>EMAIL</th>
+    <th></th>
+    <th></th>
+    <th></th>
   </tr>
   <% @users.each do |user| %>
     <tr>
@@ -29,5 +32,5 @@
   <% end %>
 </table>
 <br>
-<td><%= link_to 'Cadastrar Novo Usuário', new_user_path %></td>
+<td><%= link_to 'Cadastrar Novo Usuário', new_user_path, class: "regular-button" %></td>
 <br>

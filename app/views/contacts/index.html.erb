@@ -1,12 +1,13 @@
-<h1>Listing Emails</h1>
+<h2>Emails recebidos</h2>
  
-<table>
-  <tr>
-    <th>ID</th>
-    <th>NAME</th>
-    <th>EMAIL</th>
-    <th>MESSAGE</th>
-    <th>CRIADO EM</th>
+<table class="table">
+  <tr class="header">
+    <th>Id</th>
+    <th>Nome</th>
+    <th>Email</th>
+    <th>Mensagem</th>
+    <th>Recebido em</th>
+    <th></th>
   </tr>
   <% @contacts.each do |contact| %>
     <tr>
