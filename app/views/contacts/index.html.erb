@@ -1,4 +1,4 @@
-<h2>Emails recebidos</h2>
+<h2 class="h2">Emails recebidos</h2>
  
 <table class="table">
   <tr class="header">
@@ -6,19 +6,17 @@
     <th>Nome</th>
     <th>Email</th>
     <th>Mensagem</th>
-    <th>Recebido em</th>
+    <th>Data</th>
     <th></th>
   </tr>
   <% @contacts.each do |contact| %>
     <tr>
       <td><%= contact.id %></td>
       <td><%= contact.name %></td>
-      <td><%= contact.email %></td>
+      <td class='email'><%= contact.email %></td>
       <td><%= contact.message %></td>
-      <td><%= contact.created_at %></td>
-      <td><%= button_to 'Destroy', contact_path(contact), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse email?' } %></td>
-    </tr>
+      <td><%= contact.created_at.strftime('%d/%m/%y') %></td>
+      <td><%= button_to 'Destroy', contact_path(contact), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse email?' }, class: 'regular-button' %></td>
     </tr>
   <% end %>
 </table>
-<br>

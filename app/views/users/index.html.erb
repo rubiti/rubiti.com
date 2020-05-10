@@ -6,7 +6,7 @@
     <%= link_to "Log In", login_path %>
 <% end %>
 
-<h2>Lista de Usuários</h2>
+<h2 class="h2">Lista de Usuários</h2>
  
 <table class="table">
   <tr class="header">
@@ -24,9 +24,9 @@
       <td><%= user.name %></td>
       <td><%= user.admin %></td>
       <td><%= user.email %></td>
-      <td><%= button_to 'Mostrar', user_path(user), method: 'get' %></td>
-      <td><%= button_to 'Editar', edit_user_path(user), method: 'get' %></td>
-      <td><%= button_to 'Destroy', user_path(user), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse usuário?' } %></td>
+      <td><%= button_to 'Mostrar', user_path(user), method: 'get', class: 'regular-button' %></td>
+      <td><%= button_to 'Editar', edit_user_path(user), method: 'get', class: 'regular-button' %></td>
+      <td><%= button_to 'Destroy', user_path(user), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse usuário?' }, class: 'regular-button' %></td>
     </tr>
     </tr>
   <% end %>

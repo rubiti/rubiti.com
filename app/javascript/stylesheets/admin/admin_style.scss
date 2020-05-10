@@ -146,15 +146,11 @@ table.table {
 .table tr {
   border-bottom: 1px solid #DDD;
 }
-button {
-  background-color: #ce1b28;
-  color: #ffffff;
-  padding: 4px;
-  border: none;
-  border-radius: 5px;
+.table td {
+  text-align: justify;
 }
-button:focus, button:hover {
-  opacity: .8;
+.email {
+  color: #3251f0;
 }
 @media screen and (max-width: 800px) {
   tr {
@@ -165,7 +161,6 @@ button:focus, button:hover {
     border: .5px solid rgba(3,3,3,0.2);
   }
   td, th {
-    flex: 1 1 150px;
-    border: 0.5px solid rgba(3,3,3,0.2);
+    width: 100%;
   }
 }
