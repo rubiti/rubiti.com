@@ -111,6 +111,12 @@ input {
 .check {
   width: auto;
 }
+.button {
+  background-color: #ce1b28;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
 .regular-button {
   background-color: #701111;
   color: #fff;
@@ -120,7 +126,7 @@ input {
   cursor: pointer;
   width: 100%;
 }
-.regular-button:hover {
+.regular-button:hover, .button:hover {
   opacity: .8;
 }
 .h2 {
@@ -162,5 +168,8 @@ table.table {
   }
   td, th {
     width: 100%;
+  }
+  .fix-buttons {
+    width: auto;
   }
 }
