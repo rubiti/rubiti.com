@@ -1,0 +1,97 @@
+<%= form_with model: @content, local: true do |form| %>
+
+  <% if @content.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@content.errors.count, "error") %> As informações da página não puderam ser salvas:
+      </h2>
+      <ul>
+        <% @content.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>
+    <%= form.label :banner_title_1, 'Título do emoticon 1:' %><br>
+    <%= form.text_field :banner_title_1 %><br>
+  </p>
+  <p>
+    <%= form.label :banner_content_1, 'Conteúdo do emoticon 1:' %><br>
+    <%= form.text_field :banner_content_1 %><br>
+  </p>
+  <p>
+    <%= form.label :banner_title_2, 'Título do emoticon 2:' %><br>
+    <%= form.text_field :banner_title_2 %><br>
+  </p>
+  <p>
+    <%= form.label :banner_content_2, 'Conteúdo do emoticon 2:' %><br>
+    <%= form.text_field :banner_content_2 %><br>
+  </p>
+  <p>
+    <%= form.label :banner_title_3, 'Título do emoticon 3:' %><br>
+    <%= form.text_field :banner_title_3 %><br>
+  </p>
+  <p>
+    <%= form.label :banner_content_3, 'Conteúdo do emoticon 3:' %><br>
+    <%= form.text_field :banner_content_3 %><br>
+  </p>
+  <p>
+    <%= form.label :wrapper_title, 'Título de tecnologias:' %><br>
+    <%= form.text_field :wrapper_description %><br>
+  </p>
+
+  <p>
+    <%= form.label :highlight_title_1, 'Título do cartão 1:' %><br>
+    <%= form.text_field :highlight_title_1 %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_content_1, 'Conteúdo do cartão 1:' %><br>
+    <%= form.text_area :highlight_content_1, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_title_2, 'Título do cartão 2:' %><br>
+    <%= form.text_field :highlight_title_2 %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_content_2, 'Conteúdo do cartão 2:' %><br>
+    <%= form.text_area :highlight_content_2, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_title_3, 'Título do cartão 3:' %><br>
+    <%= form.text_field :highlight_title_3 %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_content_3, 'Conteúdo do cartão 3:' %><br>
+    <%= form.text_area :highlight_content_3, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_title_4, 'Título do cartão 4:' %><br>
+    <%= form.text_field :highlight_title_4 %><br>
+  </p>
+  <p>
+    <%= form.label :highlight_content_4, 'Conteúdo do cartão 4:' %><br>
+    <%= form.text_area :highlight_content_4, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :cta_title, 'Título do cta:' %><br>
+    <%= form.text_field :cta_title %><br>
+  </p>
+  <p>
+    <%= form.label :cta_content, 'Conteúdo do cta:' %><br>
+    <%= form.text_area :cta_content, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :contact_title, 'Título da área de contato:' %><br>
+    <%= form.text_field :contact_title %><br>
+  </p>
+  <p>
+    <%= form.label :contact_content, 'Conteúdo da área de contato:' %><br>
+    <%= form.text_area :contact_content, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.submit 'Salvar', class: 'regular-button' %>
+  </p>
+  
+<% end %>

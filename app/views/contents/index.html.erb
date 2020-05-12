@@ -1,0 +1,89 @@
+<h1 class="h2">Conteúdo do site</h1>
+<div class="regular-text">
+  <% @contents.each do |content| %>
+    <p>
+      <strong>Título do emoticon 1:</strong>
+      <%= content.banner_title_1 %>
+    </p>
+    <p>
+      <strong>Conteúdo do emoticon 1:</strong>
+      <%= content.banner_content_1 %>
+    </p>
+    <p>
+      <strong>Título do emoticon 2:</strong>
+      <%= content.banner_title_2 %>
+    </p>
+    <p>
+      <strong>Conteúdo do emoticon 2:</strong>
+      <%= content.banner_content_2 %>
+    </p>
+    <p>
+      <strong>Título do emoticon 3:</strong>
+      <%= content.banner_title_3 %>
+    </p>
+    <p>
+      <strong>Conteúdo do emoticon 3:</strong>
+      <%= content.banner_content_3 %>
+    </p>
+    <p>
+      <strong>Título de tecnologias:</strong>
+      <%= content.wrapper_title %>
+    </p>
+    <p>
+      <strong>Descrição de tecnologias:</strong>
+      <%= content.wrapper_description %>
+    </p>
+    <p>
+      <strong>Título do cartão 1:</strong>
+      <%= content.highlight_title_1 %>
+    </p>
+    <p>
+      <strong>Conteúdo do cartão 1:</strong>
+      <%= content.highlight_content_1 %>
+    </p>
+    <p>
+      <strong>Título do cartão 2:</strong>
+      <%= content.highlight_title_2 %>
+    </p>
+    <p>
+      <strong>Conteúdo do cartão 2:</strong>
+      <%= content.highlight_content_2 %>
+    </p>
+    <p>
+      <strong>Título do cartão 3:</strong>
+      <%= content.highlight_title_3 %>
+    </p>
+    <p>
+      <strong>Conteúdo do cartão 3:</strong>
+      <%= content.highlight_content_3 %>
+    </p>
+    <p>
+      <strong>Título do cartão 4:</strong>
+      <%= content.highlight_title_4 %>
+    </p>
+    <p>
+      <strong>Conteúdo do cartão 4:</strong>
+      <%= content.highlight_content_4 %>
+    </p>
+    <p>
+      <strong>Título do cta:</strong>
+      <%= content.cta_title %>
+    </p>
+    <p>
+      <strong>Conteúdo do cta:</strong>
+      <%= content.cta_content %>
+    </p>
+    <p>
+      <strong>Título da área de contato:</strong>
+      <%= content.contact_title %>
+    </p>
+    <p>
+      <strong>Descrição da área de contato:</strong>
+      <%= content.contact_title %>
+    </p>
+    <br>
+    <td>
+      <%= link_to 'Editar as informações', "contents/" + content.id.to_s + "/edit", class: 'regular-button' %>
+    </td>
+  <% end %>
+</div>
