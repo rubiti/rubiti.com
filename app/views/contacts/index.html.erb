@@ -16,7 +16,7 @@
       <td class='email'><%= contact.email %></td>
       <td><%= contact.message %></td>
       <td><%= contact.created_at.strftime('%d/%m/%y') %></td>
-      <td><%= button_to 'Destroy', contact_path(contact), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse email?' }, class: 'regular-button' %></td>
+      <td><%= button_to 'Apagar', contact_path(contact), method: :delete, data: { confirm: 'Tem certeza de que vai deletar esse email?' }, class: 'regular-button' %></td>
     </tr>
   <% end %>
 </table>
