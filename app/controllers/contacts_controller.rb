@@ -3,7 +3,7 @@ class ContactsController < ApplicationController
   layout 'mailer'
   layout 'admin', only: [:index]
 
-  before_action :authorize, only: [:index]
+  before_action :authorize, only: [:index, :delete]
 
   def index
     @contacts = Contact.all

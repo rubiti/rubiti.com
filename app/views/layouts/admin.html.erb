@@ -17,7 +17,7 @@
       <img src="<%= asset_pack_path 'media/images/rubiti_240.webp' %>" id="logo_menu" />
       <ul>
         <li><a href="#"><i class="icon fas fa-home"></i>Home</a></li>
-        <li><a href="#"><i class="icon fas fa-building"></i>Informações</a></li>
+        <li><%= link_to '<i class="icon fas fa-building"></i>Informações'.html_safe, informations_path %></li>
         <li><%= link_to '<i class="icon fas fa-at"></i>Emails'.html_safe, contacts_path %></li>
         <% if current_user.admin == true %>
           <li><%= link_to '<i class="icon fas fa-users"></i>Usuários'.html_safe, users_path %></li>

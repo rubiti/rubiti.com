@@ -1,2 +1,49 @@
-<h1>Informations#index</h1>
-<p>Find me in app/views/informations/index.html.erb</p>
+<h1>INFORMAÇÕES DA EMPRESA:</h1>
+
+<% @informations.each do |information| %>
+  <p>
+    <strong>Name:</strong>
+    <%= information.name %>
+  </p>
+  <p>
+    <strong>Sobre:</strong>
+    <%= information.short_description %>
+  </p>
+  <p>
+    <strong>Site:</strong>
+    <%= information.description %>
+  </p>
+  <p>
+    <strong>Telefone:</strong>
+    <%= information.phone %>
+  </p>
+  <p>
+    <strong>Copyright:</strong>
+    <%= information.email %>
+  </p>
+  <p>
+    <strong>Texto:</strong>
+    <%= information.location %>
+  </p>
+  <p>
+    <strong>Facebook:</strong>
+    <%= information.facebook %>
+  </p>
+  <p>
+    <strong>Twitter:</strong>
+    <%= information.linkedin %>
+  </p>
+  <p>
+    <strong>Github:</strong>
+    <%= information.github %>
+  </p>
+  <p>
+    <strong>Github:</strong>
+    <%= information.copyright %>
+  </p>
+  <p>
+    <strong>Github:</strong>
+    <%= information.copyright_short %>
+  </p>
+<td><%= link_to 'Editar as informações', "footers/" + information.id.to_s + "/edit" %></td>
+<% end %>
