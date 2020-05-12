@@ -1,49 +1,53 @@
-<h1>INFORMAÇÕES DA EMPRESA:</h1>
-
-<% @informations.each do |information| %>
-  <p>
-    <strong>Nome:</strong>
-    <%= information.name %>
-  </p>
-  <p>
-    <strong>Descrição curta:</strong>
-    <%= information.short_description %>
-  </p>
-  <p>
-    <strong>Descrição:</strong>
-    <%= information.description %>
-  </p>
-  <p>
-    <strong>Telefone:</strong>
-    <%= information.phone %>
-  </p>
-  <p>
-    <strong>Email:</strong>
-    <%= information.email %>
-  </p>
-  <p>
-    <strong>Localização:</strong>
-    <%= information.location %>
-  </p>
-  <p>
-    <strong>Facebook:</strong>
-    <%= information.facebook %>
-  </p>
-  <p>
-    <strong>Linkedin:</strong>
-    <%= information.linkedin %>
-  </p>
-  <p>
-    <strong>Github:</strong>
-    <%= information.github %>
-  </p>
-  <p>
-    <strong>Marca Registrada:</strong>
-    <%= information.copyright %>
-  </p>
-  <p>
-    <strong>Descrição curta da Marca:</strong>
-    <%= information.copyright_short %>
-  </p>
-<td><%= link_to 'Editar as informações', "informations/" + information.id.to_s + "/edit" %></td>
-<% end %>
+<h1 class="h2">INFORMAÇÕES DA EMPRESA</h1>
+<div class="regular-text">
+  <% @informations.each do |information| %>
+    <p>
+      <strong>Nome:</strong>
+      <%= information.name %>
+    </p>
+    <p>
+      <strong>Descrição curta:</strong>
+      <%= information.short_description %>
+    </p>
+    <p>
+      <strong>Descrição:</strong>
+      <%= information.description %>
+    </p>
+    <p>
+      <strong>Telefone:</strong>
+      <%= information.phone %>
+    </p>
+    <p>
+      <strong>Email:</strong>
+      <%= information.email %>
+    </p>
+    <p>
+      <strong>Localização:</strong>
+      <%= information.location %>
+    </p>
+    <p>
+      <strong>Facebook:</strong>
+      <%= information.facebook %>
+    </p>
+    <p>
+      <strong>Linkedin:</strong>
+      <%= information.linkedin %>
+    </p>
+    <p>
+      <strong>Github:</strong>
+      <%= information.github %>
+    </p>
+    <p>
+      <strong>Marca Registrada:</strong>
+      <%= information.copyright %>
+    </p>
+    <p>
+      <strong>Descrição curta da Marca:</strong>
+      <%= information.copyright_short %>
+    </p>
+    <br>
+    <td>
+      <%= link_to 'Editar as informações', "informations/" + information.id.to_s + "/edit", class: 'regular-button' %>
+    </td>
+  <% end %>
+</div>

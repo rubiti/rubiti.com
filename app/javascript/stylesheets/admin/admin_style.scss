@@ -43,6 +43,16 @@ github: @abrandao @rubiti
 .content {
   padding: 20px;
 }
+.regular-text {
+  font-size: 1.2em;
+}
+  .regular-text p {
+    padding: .2em;
+  }
+  .regular-text strong {
+    color: #701111;
+    font-weight: bold;
+  }
 
 /* Media queries */
 @media screen and (min-width: 400px) {
@@ -133,6 +143,7 @@ input {
   border: none;
   cursor: pointer;
   width: 100%;
+  text-decoration: none;
 }
 .regular-button:hover, .button:hover {
   opacity: .8;
