@@ -1,0 +1,68 @@
+<%= form_with model: @information, local: true do |form| %>
+
+  <% if @information.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@information.errors.count, "error") %> As informações da empresa não puderam ser salvas:
+      </h2>
+      <ul>
+        <% @information.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>
+    <%= form.label :name, 'Nome:' %><br>
+    <%= form.text_field :name %><br>
+  </p>
+  <p>
+    <%= form.label :short_description, 'Descrição curta:' %><br>
+    <%= form.text_field :short_description %><br>
+  </p>
+  <p>
+    <%= form.label :description, 'Descrição:' %><br>
+    <%= form.text_area :description, class: 'form-fields' %><br>
+  </p>
+  <p>
+    <%= form.label :phone, 'Telefone:' %><br>
+    <%= form.text_field :phone %><br>
+  </p>
+  <p>
+    <%= form.label :email, 'Email:' %><br>
+    <%= form.text_field :email %><br>
+  </p>
+  <p>
+    <%= form.label :site, 'Site:' %><br>
+    <%= form.text_field :site %><br>
+  </p>
+  <p>
+    <%= form.label :location, 'Localização:' %><br>
+    <%= form.text_field :location %><br>
+  </p>
+  <p>
+    <%= form.label :facebook, 'Facebook:' %><br>
+    <%= form.text_field :facebook %><br>
+  </p>
+  <p>
+    <%= form.label :linkedin, 'Linkedin:' %><br>
+    <%= form.text_field :linkedin %><br>
+  </p>
+  <p>
+    <%= form.label :github, 'Github:' %><br>
+    <%= form.text_field :github %><br>
+  </p>
+  <p>
+    <%= form.label :copyright, 'Marca Registrada:' %><br>
+    <%= form.text_field :copyright %><br>
+  </p>
+  <p>
+    <%= form.label :copyright_short, 'Descrição curta da marca:' %><br>
+    <%= form.text_field :copyright_short %><br>
+  </p>
+  <p>
+    <%= form.submit 'Salvar', class: 'regular-button' %>
+  </p>
+  
+<% end %>
