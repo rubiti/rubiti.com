@@ -3,8 +3,10 @@
       <header id="header">
         <div class="inner">
           <a href="#" class="logo">
-            <strong>rubiti</strong>
-            sistemas web
+            <% @informations.each do |information| %>
+              <strong><%= information.name %></strong>
+              <%= information.short_description %>
+            <% end %>
           </a>
           <input type="checkbox" id="openSidebarMenu">
           <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -165,30 +167,32 @@
     <footer id="footer">
       <div class="inner">
         <div class="content">
-          <section class="resp-footer resp-footer-full">
-            <h3>Porque trazer seu projeto para a rubiti?</h3>
-            <p>Aqui não temos receita de bolo! A rubiti Sistemas Web trabalha em cada detalhe do projeto direto no código, colocando a mão na massa! Isso nos dá controle e liberdade sobre cada aspecto do empreendimento e independência de plugins pesados e desnecessários. Assim como nossa hospedagem em nuvem e em servidor independente.</p>
-          </section>
-          <section class="resp-footer resp-footer-full">
-            <h4>Entre em contato:</h4>
-            <ul class="alt">
-              <li><i class="icon fas fa-phone-square"></i>(12) 98898.7716</li>
-              <li><i class="icon fas fa-at"></i>brandao@rubiti.com</li>
-              <li><i class="icon fas fa-globe"></i>www.rubiti.com</li>
-              <li><i class="icon fas fa-map-marker-alt"></i>Jacareí, SP - Brasil</li>
-            </ul>
-          </section>
-          <section class="resp-footer-full">
-            <h4>Redes Sociais:</h4>
-            <ul class="plain">
-							<li><a href="https://www.facebook.com/rubitisoft/"><i class="icon fab fa-facebook">&nbsp;</i>Facebook</a></li>
-							<li><a href="https://www.linkedin.com/company/rubiti/"><i class="icon fab fa-linkedin">&nbsp;</i>Linkedin</a></li>
-							<li><a href="https://github.com/rubiti"><i class="icon fab fa-github">&nbsp;</i>Github</a></li>
-            </ul>
-          </section>
-        </div>
-        <div class="copyright">
-          &copy;<a href="https://rubiti.com">rubiti</a> sistemas web
-        </div>
+          <% @informations.each do |information| %>
+            <section class="resp-footer resp-footer-full">
+              <h3>Porque trazer seu projeto para a rubiti?</h3>
+              <p><%= information.description %></p>
+            </section>
+            <section class="resp-footer resp-footer-full">
+              <h4>Entre em contato:</h4>
+              <ul class="alt">
+                <li><i class="icon fas fa-phone-square"></i><%= information.phone %></li>
+                <li><i class="icon fas fa-at"></i><%= information.email %></li>
+                <li><i class="icon fas fa-globe"></i><%= information.site %></li>
+                <li><i class="icon fas fa-map-marker-alt"></i><%= information.location %></li>
+              </ul>
+            </section>
+            <section class="resp-footer-full">
+              <h4>Redes Sociais:</h4>
+              <ul class="plain">
+  							<li><a href="https://www.facebook.com/<%= information.facebook %>"><i class="icon fab fa-facebook">&nbsp;</i>Facebook</a></li>
+  							<li><a href="https://www.linkedin.com/company/<%= information.linkedin %>"><i class="icon fab fa-linkedin">&nbsp;</i>Linkedin</a></li>
+	  						<li><a href="https://github.com/<%= information.github %>"><i class="icon fab fa-github">&nbsp;</i>Github</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="copyright">
+            &copy;<a href="<%= information.site %>"><%= information.copyright %></a> <%= information.copyright_short %>
+          </div>
+        <% end %>
       </div>
     </footer>

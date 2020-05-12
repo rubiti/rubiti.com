@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
 
   def index
     @contact = Contact.new
+    @informations = Information.all
   end
 
 end
