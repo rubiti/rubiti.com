@@ -44,23 +44,25 @@
         </nav>
       </header>
       
+      <% @contents.each do |content| %>
+
       <div id="banner">
         <img src="<%= asset_pack_path 'media/images/rubiti_240.webp' %>" id="emblema" />
         <div>
           <div class="banner-row">
             <span class="icon fa fa-lightbulb"></span>
-            <h3>Sua ideia</h3>
-            <p>Transformada em um negócio</p>
+            <h3><%= content.banner_title_1 %></h3>
+            <p><%= content.banner_content_1 %></p>
           </div>
           <div class="banner-row">
             <span class="icon fab fa-cloudversify"></span>
-            <h3>Nossa expertise</h3>
-            <p>E nosso poder de realizar</p>
+            <h3><%= content.banner_title_2 %></h3>
+            <p><%= content.banner_content_2 %></p>
           </div>
           <div class="banner-row">
             <span class="icon fas fa-bullhorn"></span>
-            <h3>Seus clientes</h3>
-            <p>Tendo a melhor experiência</p>
+            <h3><%= content.banner_title_3 %></h3>
+            <p><%= content.banner_content_3 %></p>
           </div>
         </div>
       </div>
@@ -70,44 +72,44 @@
     <section class="wrapper" id="wrapper">
       <div class="inner">
         <header class="special">
-          <h2>Saiba um pouco mais sobre nós</h2>
-          <p>Alguns pontos para que você entenda qual é o nosso diferencial.</p>
+          <h2><%= content.wrapper_title %></h2>
+          <p><%= content.wrapper_description %></p>
         </header>
         <div class="highlights">
           <section class="high">
             <div class="content">
               <header>
                 <span class="icon fab fa-digital-ocean"></span>
-                <h3>Servidores em nuvem</h3>
+                <h3><%= content.highlight_title_1 %></h3>
               </header>
-              <p>Projetos estão hospedados na nuvem, em servidores próprios. Isso proporciona desempenho e um aumento na segurança.</p>
+              <p><%= content.highlight_content_1 %></p>
             </div>
           </section>
           <section class="high">
             <div class="content">
               <header>
                 <span class="icon fab fa-linux"></span>
-                <h3>Programação Open Source</h3>
+                <h3><%= content.highlight_title_2 %></h3>
               </header>
-              <p>Priorizamos tecnologias abertas, participando de uma comunidade mundial e colaborativa de desenvolvedores.</p>
+              <p><%= content.highlight_content_2 %></p>
             </div>
           </section>
           <section class="high">
             <div class="content">
               <header>
                 <span class="icon fas fa-credit-card"></span>
-                <h3>Excelente custo-benefício</h3>
+                <h3><%= content.highlight_title_3 %></h3>
               </header>
-              <p>Com nosso sistema de mensalidades, nossos sites e softwares são mantidos e atualizados por preços acessíveis.</p>
+              <p><%= content.highlight_content_3 %></p>
             </div>
           </section>
           <section class="high">
             <div class="content">
               <header>
                 <span class="icon fa fa-comments"></span>
-                <h3>Atendimento pessoal</h3>
+                <h3><%= content.highlight_title_4 %></h3>
               </header>
-              <p>Aqui você fala diretamente conosco, o bom atendimento é parte do nosso pacote, fortalecendo nosso diálogo e parceria.</p>
+              <p><%= content.highlight_content_4 %></p>
             </div>
           </section>
         </div>
@@ -118,10 +120,10 @@
 		<section id="cta" class="wrapper_cta">
 			<div class="inner_cta">
 				<h2>
-					Nossos Valores
+					<%= content.cta_title %>
 				</h2>
 				<p>
-					Proporcionar aos nossos clientes o melhor retorno para seu investimento com o uso de tecnologias de ponta e o que há de melhor e mais atual no Desenvolvimento Web. Tratamos nossos clientes indiretos como diretos, e os diretos como parte de nossa equipe, incorporando à nossa missão o dever de contribuir com a sociedade através de nosso trabalho.
+					<%= content.cta_content %>
 				</p>
 			</div>
 		</section>
@@ -129,9 +131,12 @@
     <!-- contact -->
     <section class="wrapper" id="contact">
       <header class="special">
-        <h2>Contate-nos!</h2>
-        <p>Entraremos em contato para trabalharmos em sua ideia e firmarmos nossa parceria.</p>
+        <h2><%= content.contact_title %></h2>
+        <p><%= content.contact_content %></p>
       </header>
+
+    <% end %>
+
       <div class="highlights">
         <section class="contact">
           

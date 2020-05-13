@@ -5,6 +5,7 @@ class WelcomeController < ApplicationController
   def index
     @contact = Contact.new
     @informations = Information.all
+    @contents = Content.all
   end
 
 end
