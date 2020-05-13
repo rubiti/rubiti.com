@@ -126,6 +126,13 @@ input {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+form p {
+  padding-top: 1.5em;
+  font-size: 1.2em;
+}
+form p input, form p textarea {
+  border-radius: 4px;
+}
 .check {
   width: auto;
 }

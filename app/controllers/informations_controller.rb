@@ -32,6 +32,13 @@ class InformationsController < ApplicationController
     redirect_to informations_path
   end
 
+  def destroy
+    @information = Information.find(params[:id])
+    @information.destroy
+    
+    redirect_to informations_path
+  end
+
   private
 
   def information_params
