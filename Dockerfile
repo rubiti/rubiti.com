@@ -18,7 +18,9 @@ RUN apk add --update --no-cache \
       libxml2-dev \
       libxslt-dev \
       libgcrypt-dev \
+      libpq \
       make \
+      nano \
       netcat-openbsd \
       nodejs \
       openssl \
@@ -29,19 +31,11 @@ RUN apk add --update --no-cache \
       yarn
 
 RUN gem install bundler -v 2.0.2
-
-WORKDIR /app
-
-COPY Gemfile Gemfile.lock ./
-
-RUN bundle config build.nokogiri --use-system-libraries
-
+RUN mkdir /rails
+WORKDIR /rails
+COPY rails/Gemfile /rails/Gemfile
+COPY rails/Gemfile.lock /rails/Gemfile.lock
 RUN bundle check || bundle install
-
-COPY package.json yarn.lock ./
-
-RUN yarn install --check-files
-
-COPY . ./
-
-ENTRYPOINT ["./entrypoints/docker-entrypoint.sh"]
+COPY rails /rails
+EXPOSE 3000
+CMD [ "bundle", "exec", "puma", "-C", "config/puma.rb" ]
