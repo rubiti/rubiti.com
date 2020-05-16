@@ -1,8 +1,0 @@
-MAIL_USERNAME: 'contato@rubiti.com'
-MAIL_DOMAIN: 'rubiti.com'
-MAIL_PASSWORD: 'Ruby_it@62'
-
-DATABASE_NAME: 'rails_development'
-DATABASE_USER: 'rubiti'
-DATABASE_PASSWORD: 'duur#hashnaRo243'
-DATABASE_HOST: 'db'
