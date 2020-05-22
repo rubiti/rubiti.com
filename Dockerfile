@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine
+FROM ruby:2.7.1-alpine
 
 ENV BUNDLER_VERSION=2.0.2
 
@@ -31,11 +31,11 @@ RUN apk add --update --no-cache \
       yarn
 
 RUN gem install bundler -v 2.0.2
-RUN mkdir /rails
-WORKDIR /rails
-COPY rails/Gemfile /rails/Gemfile
-COPY rails/Gemfile.lock /rails/Gemfile.lock
+WORKDIR /app
+COPY Gemfile Gemfile.lock ./
+RUN bundle config build.nokogiri --use-system-libraries
 RUN bundle check || bundle install
-COPY rails /rails
-EXPOSE 3000
-CMD [ "bundle", "exec", "puma", "-C", "config/puma.rb" ]
+COPY package.json yarn.lock ./
+RUN yarn install --check-files
+COPY . ./
+ENTRYPOINT ["./entrypoints/docker-entrypoint.sh"]

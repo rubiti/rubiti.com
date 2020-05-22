@@ -1,5 +1,5 @@
-FROM nginx
-RUN apt-get update -qq && apt-get -y install apache2-utils
+FROM nginx:1.17.10-alpine
+RUN apk update && apk add apache2-utils
 ENV RAILS_ROOT /var/www/rails
 WORKDIR $RAILS_ROOT
 RUN mkdir -p log
