@@ -1,4 +1,3 @@
-postgres/
 .env
 Dockerfile
 docker-compose.yml
@@ -26,6 +25,7 @@ pickle-email-*.html
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+tmp/
 !/log/.keep
 !/tmp/.keep
 
