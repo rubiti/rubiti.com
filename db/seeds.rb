@@ -20,7 +20,7 @@ Content.create(
   banner_content_2: 'E nosso poder de realizar',
   banner_title_3: 'Seus clientes',
   banner_content_3: 'Tendo a melhor experiência',
-  wrapper_title: 'Saiba um pouco maissobre nós',
+  wrapper_title: 'Saiba um pouco mais sobre nós',
   wrapper_description: 'Alguns pontos para que você entenda qual é o nosso diferencial.',
   highlight_title_1: 'Servidores em Nuvem',
   highlight_content_1: 'Projetos estão hospedados na nuvem, em servidores próprios. Isso proporciona desempenho e um aumento na segurança.',

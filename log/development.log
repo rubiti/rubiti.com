@@ -46607,3 +46607,1089 @@ Processing by ContactsController#index as HTML
 Completed 200 OK in 27ms (Views: 21.8ms | ActiveRecord: 1.0ms | Allocations: 9127)
 
 
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:33:55 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.8ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.8ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 19.6ms | Allocations: 6243)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 1.6ms | Allocations: 10770)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:34:53 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 22.7ms | Allocations: 6158)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 1.2ms | Allocations: 10683)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:35:56 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 63.2ms | Allocations: 28916)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 69.4ms | ActiveRecord: 12.7ms | Allocations: 39173)
+
+
+Started GET "/packs/media/packs/welcome/images/rubiti_240-8c424c9386e22c93a7e9b4b8b27c7296.png" for 173.252.95.112 at 2020-06-01 19:37:38 +0000
+Cannot render console from 173.252.95.112! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/media/packs/welcome/images/rubiti_240-8c424c9386e22c93a7e9b4b8b27c7296.png"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:39:55 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.8ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 54.5ms | Allocations: 28664)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 57.5ms | ActiveRecord: 12.6ms | Allocations: 38405)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:40:51 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.2ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 14.2ms | Allocations: 6173)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.6ms | Allocations: 10705)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:41:35 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 14.2ms | Allocations: 6153)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 23.4ms | ActiveRecord: 1.0ms | Allocations: 10799)
+
+
+Started GET "/" for 66.102.8.102 at 2020-06-01 19:42:46 +0000
+Cannot render console from 66.102.8.102! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (3.3ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 19.8ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 23.2ms | ActiveRecord: 5.0ms | Allocations: 10680)
+
+
+Started GET "/" for 66.102.8.104 at 2020-06-01 19:42:46 +0000
+Cannot render console from 66.102.8.104! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.4ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 1.0ms | Allocations: 10679)
+
+
+Started GET "/" for 66.102.8.99 at 2020-06-01 19:42:49 +0000
+Cannot render console from 66.102.8.99! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.1ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 1.0ms | Allocations: 10928)
+
+
+Started GET "/" for 66.102.8.99 at 2020-06-01 19:42:49 +0000
+Cannot render console from 66.102.8.99! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 20.4ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 1.3ms | Allocations: 10774)
+
+
+Started GET "/asset-manifest.json" for 66.102.8.102 at 2020-06-01 19:42:50 +0000
+Cannot render console from 66.102.8.102! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/asset-manifest.json" for 66.102.8.104 at 2020-06-01 19:42:51 +0000
+Cannot render console from 66.102.8.104! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.2.126.190 at 2020-06-01 19:44:36 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 19.8ms | Allocations: 6155)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 1.0ms | Allocations: 10679)
+
+
+Started GET "/informations" for 187.2.126.190 at 2020-06-01 19:50:18 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by InformationsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering informations/index.html.erb within layouts/admin
+  [1m[36mInformation Load (0.8ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/informations/index.html.erb:3
+  Rendered informations/index.html.erb within layouts/admin (Duration: 4.8ms | Allocations: 1090)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 23.4ms | ActiveRecord: 5.9ms | Allocations: 14497)
+
+
+Started GET "/contacts" for 187.2.126.190 at 2020-06-01 19:50:20 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering contacts/index.html.erb within layouts/admin
+  [1m[36mContact Load (1.6ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/views/contacts/index.html.erb:12
+  Rendered contacts/index.html.erb within layouts/admin (Duration: 14.5ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 32.8ms | ActiveRecord: 2.1ms | Allocations: 9193)
+
+
+Started GET "/users" for 187.2.126.190 at 2020-06-01 19:50:22 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/index.html.erb within layouts/admin
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:21
+  Rendered users/index.html.erb within layouts/admin (Duration: 4.8ms | Allocations: 1390)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.9ms | Allocations: 9111)
+
+
+Started GET "/users/new" for 187.2.126.190 at 2020-06-01 19:53:37 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/new.html.erb within layouts/admin
+  Rendered users/new.html.erb within layouts/admin (Duration: 22.8ms | Allocations: 3593)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 44.1ms | ActiveRecord: 0.5ms | Allocations: 10998)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:11:34 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.9ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.9ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 23.3ms | Allocations: 7349)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 1.8ms | Allocations: 12659)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:12:16 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.8ms | Allocations: 6152)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.9ms | Allocations: 10807)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:12:23 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.4ms | Allocations: 6145)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 1.1ms | Allocations: 10786)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:13:20 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.0ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 20.6ms | Allocations: 6145)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 1.5ms | Allocations: 10788)
+
+
+Started GET "/" for 66.102.8.99 at 2020-06-01 20:15:22 +0000
+Cannot render console from 66.102.8.99! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.9ms | Allocations: 6158)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 1.1ms | Allocations: 10684)
+
+
+Started GET "/" for 66.102.8.102 at 2020-06-01 20:15:22 +0000
+Cannot render console from 66.102.8.102! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 17.6ms | Allocations: 6158)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 1.1ms | Allocations: 10682)
+
+
+Started GET "/" for 66.102.8.102 at 2020-06-01 20:15:24 +0000
+Cannot render console from 66.102.8.102! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.6ms | Allocations: 6145)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 1.2ms | Allocations: 10924)
+
+
+Started GET "/" for 66.102.8.102 at 2020-06-01 20:15:25 +0000
+Cannot render console from 66.102.8.102! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.0ms | Allocations: 6145)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 1.0ms | Allocations: 10772)
+
+
+Started GET "/asset-manifest.json" for 66.102.8.99 at 2020-06-01 20:15:26 +0000
+Cannot render console from 66.102.8.99! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/asset-manifest.json" for 66.102.8.104 at 2020-06-01 20:15:27 +0000
+Cannot render console from 66.102.8.104! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/contents" for 187.2.126.190 at 2020-06-01 20:40:03 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#index as HTML
+  Rendering contents/index.html.erb within layouts/admin
+  [1m[36mContent Load (1.1ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/contents/index.html.erb:3
+  Rendered contents/index.html.erb within layouts/admin (Duration: 6.3ms | Allocations: 1396)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 2.0ms | Allocations: 9563)
+
+
+Started GET "/informations" for 187.2.126.190 at 2020-06-01 20:40:05 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by InformationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering informations/index.html.erb within layouts/admin
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/informations/index.html.erb:3
+  Rendered informations/index.html.erb within layouts/admin (Duration: 3.9ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 17.8ms | ActiveRecord: 1.1ms | Allocations: 8727)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:40:06 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.9ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 30.7ms | Allocations: 6152)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 1.6ms | Allocations: 10801)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:40:07 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 18.5ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 1.2ms | Allocations: 10775)
+
+
+Started GET "/admin" for 187.2.126.190 at 2020-06-01 20:40:13 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering admin/index.html.erb within layouts/admin
+  Rendered admin/index.html.erb within layouts/admin (Duration: 0.4ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 14.9ms | ActiveRecord: 0.5ms | Allocations: 7770)
+
+
+Started GET "/users" for 187.2.126.190 at 2020-06-01 20:40:16 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/index.html.erb within layouts/admin
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:21
+  Rendered users/index.html.erb within layouts/admin (Duration: 5.9ms | Allocations: 1365)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.2ms | ActiveRecord: 1.1ms | Allocations: 9015)
+
+
+Started GET "/contacts" for 187.2.126.190 at 2020-06-01 20:40:19 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering contacts/index.html.erb within layouts/admin
+  [1m[36mContact Load (5.1ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/views/contacts/index.html.erb:12
+  Rendered contacts/index.html.erb within layouts/admin (Duration: 8.0ms | Allocations: 1426)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 27.9ms | ActiveRecord: 5.5ms | Allocations: 9096)
+
+
+Started GET "/" for 74.125.208.8 at 2020-06-01 20:43:41 +0000
+Cannot render console from 74.125.208.8! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 24.6ms | Allocations: 6165)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 1.1ms | Allocations: 10690)
+
+
+Started GET "/" for 74.125.208.8 at 2020-06-01 20:43:45 +0000
+Cannot render console from 74.125.208.8! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 29.2ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 1.1ms | Allocations: 10777)
+
+
+Started GET "/asset-manifest.json" for 74.125.208.8 at 2020-06-01 20:43:47 +0000
+Cannot render console from 74.125.208.8! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 74.125.208.4 at 2020-06-01 20:43:48 +0000
+Cannot render console from 74.125.208.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 13.3ms | Allocations: 6142)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.8ms | Allocations: 10776)
+
+
+Started GET "/" for 74.125.208.8 at 2020-06-01 20:43:48 +0000
+Cannot render console from 74.125.208.8! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 19.5ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 1.1ms | Allocations: 10785)
+
+
+Started GET "/" for 66.102.6.198 at 2020-06-01 20:44:38 +0000
+Cannot render console from 66.102.6.198! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.0ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.9ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 1.6ms | Allocations: 10679)
+
+
+Started GET "/" for 66.102.6.198 at 2020-06-01 20:44:40 +0000
+Cannot render console from 66.102.6.198! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 20.1ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 1.2ms | Allocations: 10778)
+
+
+Started GET "/asset-manifest.json" for 66.102.6.200 at 2020-06-01 20:44:42 +0000
+Cannot render console from 66.102.6.200! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/asset-manifest.json"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 66.102.6.195 at 2020-06-01 20:44:43 +0000
+Cannot render console from 66.102.6.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 18.6ms | Allocations: 6142)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 1.2ms | Allocations: 10774)
+
+
+Started GET "/" for 66.102.6.195 at 2020-06-01 20:44:43 +0000
+Cannot render console from 66.102.6.195! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.1ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 1.0ms | Allocations: 10775)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:44:45 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.6ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 1.1ms | Allocations: 10777)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 20:44:45 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 18.0ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 1.1ms | Allocations: 10787)
+
+
+Started GET "/packs/media/packs/welcome/images/rubiti_240-8c424c9386e22c93a7e9b4b8b27c7296.png" for 173.252.95.37 at 2020-06-01 20:47:29 +0000
+Cannot render console from 173.252.95.37! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/media/packs/welcome/images/rubiti_240-8c424c9386e22c93a7e9b4b8b27c7296.png"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 66.249.64.240 at 2020-06-01 21:23:05 +0000
+Cannot render console from 66.249.64.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.8ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.3ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.6ms | Allocations: 10754)
+
+
+Started GET "/login" for 187.2.126.190 at 2020-06-01 21:51:58 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/sessions
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered sessions/new.html.erb within layouts/sessions (Duration: 6.1ms | Allocations: 2627)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 7875)
+
+
+Started POST "/sessions" for 187.2.126.190 at 2020-06-01 21:52:20 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"r8UwjjO54QBq2nEEL9KoFslUe5yKbzyNPzJwe3R6uCz0dZcngG1xMONfsUa2YhckeqruC45L9/Pbs+g5E0JnSA==", "email"=>"brandao@rubiti.com", "password"=>"[FILTERED]", "commit"=>"Logar"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "brandao@rubiti.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9:in `create'
+Redirected to https://rubiti.com/admin
+Completed 302 Found in 262ms (ActiveRecord: 0.8ms | Allocations: 1263)
+
+
+Started GET "/admin" for 187.2.126.190 at 2020-06-01 21:52:21 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering admin/index.html.erb within layouts/admin
+  Rendered admin/index.html.erb within layouts/admin (Duration: 0.4ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.3ms | Allocations: 8186)
+
+
+Started GET "/informations" for 187.2.126.190 at 2020-06-01 21:52:24 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by InformationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering informations/index.html.erb within layouts/admin
+  [1m[36mInformation Load (0.8ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/informations/index.html.erb:3
+  Rendered informations/index.html.erb within layouts/admin (Duration: 5.1ms | Allocations: 1070)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 23.7ms | ActiveRecord: 1.4ms | Allocations: 8736)
+
+
+Started GET "/contents" for 187.2.126.190 at 2020-06-01 21:52:27 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#index as HTML
+  Rendering contents/index.html.erb within layouts/admin
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/contents/index.html.erb:3
+  Rendered contents/index.html.erb within layouts/admin (Duration: 3.9ms | Allocations: 1300)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 1.1ms | Allocations: 8976)
+
+
+Started GET "/contents/1/edit" for 187.2.126.190 at 2020-06-01 21:52:28 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mContent Load (0.9ms)[0m  [1m[34mSELECT "contents".* FROM "contents" WHERE "contents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contents_controller.rb:10:in `edit'
+  Rendering contents/edit.html.erb within layouts/admin
+  Rendered contents/_form.html.erb (Duration: 5.5ms | Allocations: 2840)
+  Rendered contents/edit.html.erb within layouts/admin (Duration: 7.5ms | Allocations: 3109)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Completed 200 OK in 33ms (Views: 27.1ms | ActiveRecord: 1.4ms | Allocations: 11331)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 21:53:03 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 20.5ms | Allocations: 7276)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 1.2ms | Allocations: 12562)
+
+
+Started GET "/contents/1/edit" for 187.2.126.190 at 2020-06-01 21:55:57 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mContent Load (2.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents" WHERE "contents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contents_controller.rb:10:in `edit'
+  Rendering contents/edit.html.erb within layouts/admin
+  Rendered contents/_form.html.erb (Duration: 4.9ms | Allocations: 2856)
+  Rendered contents/edit.html.erb within layouts/admin (Duration: 6.3ms | Allocations: 3122)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Completed 200 OK in 31ms (Views: 25.2ms | ActiveRecord: 3.2ms | Allocations: 11867)
+
+
+Started PATCH "/contents/1" for 187.2.126.190 at 2020-06-01 21:56:06 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#update as HTML
+  Parameters: {"authenticity_token"=>"jNl5KKSHXpZxyXqEbviUDJaG7pZC0IQXBJWmh+4UgwTXad6BF1POpvhMusb3SCs+JXh7AUb0T2ngFD7FiSxcYA==", "content"=>{"banner_title_1"=>"Sua ideia", "banner_content_1"=>"Transformada em negócio", "banner_title_2"=>"Nossa expertise", "banner_content_2"=>"E nosso poder de realizar", "banner_title_3"=>"Seus clientes", "banner_content_3"=>"Tendo a melhor experiência", "wrapper_title"=>"Saiba um pouco mais sobre nós", "wrapper_description"=>"Alguns pontos para que você entenda qual é o nosso diferencial.", "highlight_title_1"=>"Servidores em Nuvem", "highlight_content_1"=>"Projetos estão hospedados na nuvem, em servidores próprios. Isso proporciona desempenho e um aumento na segurança.", "highlight_title_2"=>"Programação Open Source", "highlight_content_2"=>"Priorizamos tecnologias abertas, participando de uma comunidade mundial e colaborativa de desenvolvedores.", "highlight_title_3"=>"Excelente custo-benefício", "highlight_content_3"=>"Com nosso sistema de mensalidades, nossos sites e softwares são mantidos e atualizados por preços acessíveis.", "highlight_title_4"=>"Atendimento pessoal", "highlight_content_4"=>"Aqui você fala diretamente conosco, o bom atendimento é parte do nosso pacote, fortalecendo nosso diálogo e parceria.", "cta_title"=>"Nossos valores", "cta_content"=>"Proporcionar aos nossos clientes o melhor retorno para seu investimento com o uso de tecnologias de ponta e o que há de melhor e mais atual no Desenvolvimento Web. Tratamos nossos clientes indiretos como diretos, e os diretos como parte de nossa equipe, incorporando à nossa missão o dever de contribuir com a sociedade através de nosso trabalho.", "contact_title"=>"Contate-nos", "contact_content"=>"Entraremos em contato para trabalharmos em sua ideia e firmarmos nossa parceria."}, "commit"=>"Salvar", "id"=>"1"}
+  [1m[36mContent Load (1.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents" WHERE "contents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contents_controller.rb:14:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/contents_controller.rb:15:in `update'
+  [1m[36mContent Update (1.4ms)[0m  [1m[33mUPDATE "contents" SET "wrapper_title" = $1, "updated_at" = $2 WHERE "contents"."id" = $3[0m  [["wrapper_title", "Saiba um pouco mais sobre nós"], ["updated_at", "2020-06-01 21:56:06.728853"], ["id", 1]]
+  ↳ app/controllers/contents_controller.rb:15:in `update'
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/contents_controller.rb:15:in `update'
+Redirected to https://rubiti.com/contents
+Completed 302 Found in 19ms (ActiveRecord: 6.5ms | Allocations: 3860)
+
+
+Started GET "/contents" for 187.2.126.190 at 2020-06-01 21:56:06 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContentsController#index as HTML
+  Rendering contents/index.html.erb within layouts/admin
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/contents/index.html.erb:3
+  Rendered contents/index.html.erb within layouts/admin (Duration: 4.7ms | Allocations: 1300)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 1.1ms | Allocations: 8837)
+
+
+Started GET "/" for 187.2.126.190 at 2020-06-01 21:56:11 +0000
+Cannot render console from 187.2.126.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16.8ms | Allocations: 7280)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 1.0ms | Allocations: 12559)
+
+
