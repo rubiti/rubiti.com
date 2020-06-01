@@ -1,15 +1,15 @@
 {
-  "admin.js": "/packs/js/admin-e4f34c3c62e435e6c6b6.js",
-  "admin.js.map": "/packs/js/admin-e4f34c3c62e435e6c6b6.js.map",
+  "admin.js": "/packs/js/admin-3ab64f1c37e7d5d65a9c.js",
+  "admin.js.map": "/packs/js/admin-3ab64f1c37e7d5d65a9c.js.map",
   "application.js": "/packs/js/application-1e2a193a6fcd5b749f1b.js",
   "application.js.map": "/packs/js/application-1e2a193a6fcd5b749f1b.js.map",
   "entrypoints": {
     "admin": {
       "js": [
-        "/packs/js/admin-e4f34c3c62e435e6c6b6.js"
+        "/packs/js/admin-3ab64f1c37e7d5d65a9c.js"
       ],
       "js.map": [
-        "/packs/js/admin-e4f34c3c62e435e6c6b6.js.map"
+        "/packs/js/admin-3ab64f1c37e7d5d65a9c.js.map"
       ]
     },
     "application": {
@@ -22,18 +22,18 @@
     },
     "sessions": {
       "js": [
-        "/packs/js/sessions-64163e91c3bb3e7b6725.js"
+        "/packs/js/sessions-a7cb231b154351412cea.js"
       ],
       "js.map": [
-        "/packs/js/sessions-64163e91c3bb3e7b6725.js.map"
+        "/packs/js/sessions-a7cb231b154351412cea.js.map"
       ]
     },
     "welcome": {
       "js": [
-        "/packs/js/welcome-65bd706af02de8e473b0.js"
+        "/packs/js/welcome-b732f3937957f751c9bd.js"
       ],
       "js.map": [
-        "/packs/js/welcome-65bd706af02de8e473b0.js.map"
+        "/packs/js/welcome-b732f3937957f751c9bd.js.map"
       ]
     }
   },
@@ -45,8 +45,8 @@
   "media/images/predio_1362_864.webp": "/packs/media/images/predio_1362_864-3909789aae0531c9f6837ec8bcb23041.webp",
   "media/images/predio_full.webp": "/packs/media/images/predio_full-a53a50838a5780a3baa6253ad6402db8.webp",
   "media/images/rubiti_240.webp": "/packs/media/images/rubiti_240-10ab29e727a3110d0fa8fe26908cbe16.webp",
-  "sessions.js": "/packs/js/sessions-64163e91c3bb3e7b6725.js",
-  "sessions.js.map": "/packs/js/sessions-64163e91c3bb3e7b6725.js.map",
-  "welcome.js": "/packs/js/welcome-65bd706af02de8e473b0.js",
-  "welcome.js.map": "/packs/js/welcome-65bd706af02de8e473b0.js.map"
+  "sessions.js": "/packs/js/sessions-a7cb231b154351412cea.js",
+  "sessions.js.map": "/packs/js/sessions-a7cb231b154351412cea.js.map",
+  "welcome.js": "/packs/js/welcome-b732f3937957f751c9bd.js",
+  "welcome.js.map": "/packs/js/welcome-b732f3937957f751c9bd.js.map"
 }

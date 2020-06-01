@@ -32,17 +32,6 @@ services:
     ports:
       - "5432"
 
-  web:
-    image: nginx:1.17.10-alpine
-    container_name: nginx_web
-    build:
-      context: .
-      dockerfile: ./nginx/Dockerfile
-    depends_on:
-      - app
-    ports:
-      - "80:80"
-
 volumes:
   gem_cache:
   db_data:
