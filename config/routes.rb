@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   
   resources :informations
   resources :contents
-  resources :contacts, only: [:index, :destroy]
+  resources :contacts, only: [:index, :destroy, :new, :create]
 
   get 'admin', to: 'admin#index'
   root to: 'welcome#index'

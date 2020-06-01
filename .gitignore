@@ -21,6 +21,7 @@ capybara-*.html
 *.orig
 rerun.txt
 pickle-email-*.html
+config/environments/development.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*
