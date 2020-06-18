@@ -51433,3 +51433,911 @@ puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.5) lib/puma/server.rb:472:in `process_client'
 puma (4.3.5) lib/puma/server.rb:328:in `block in run'
 puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 17:56:45 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "rubiti"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:03:46 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:08:17 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:11:29 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:17:19 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:20:21 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "rubiti"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:22:35 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "rubiti_dev" does not exist
+):
+  
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.1) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (259.0ms)[0m  [1m[35mCREATE DATABASE "rubiti_dev" ENCODING = 'unicode'[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE "rubiti_dev" ENCODING = 'unicode'[0m
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:25:52 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (37.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3244819137331703085)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200423174756)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying, "password_digest" character varying, "admin" boolean, "superadmin" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200423174756"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddNameToUsers (20200423220007)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "users" ADD "name" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200423220007"]]
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DropContacts (20200428135652)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (3.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200428135652"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateContacts (20200428181451)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE "contacts" ("id" bigserial primary key, "name" character varying, "email" character varying, "message" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200428181451"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateInformation (20200512142603)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.4ms)[0m  [1m[35mCREATE TABLE "information" ("id" bigserial primary key, "name" character varying, "short_description" character varying, "description" character varying, "phone" character varying, "email" character varying, "site" character varying, "location" character varying, "facebook" character varying, "linkedin" character varying, "github" character varying, "copyright" character varying, "copyright_short" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200512142603"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateContents (20200512215149)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "contents" ("id" bigserial primary key, "banner_title_1" character varying, "banner_content_1" character varying, "banner_title_2" character varying, "banner_content_2" character varying, "banner_title_3" character varying, "banner_content_3" character varying, "wrapper_title" character varying, "wrapper_description" character varying, "highlight_title_1" character varying, "highlight_content_1" character varying, "highlight_title_2" character varying, "highlight_content_2" character varying, "highlight_title_3" character varying, "highlight_content_3" character varying, "highlight_title_4" character varying, "highlight_content_4" character varying, "cta_title" character varying, "cta_content" character varying, "contact_title" character varying, "contact_content" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200512215149"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-18 18:26:07.833736"], ["updated_at", "2020-06-18 18:26:07.833736"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3244819137331703085)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:27:11 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.1ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /app/public/packs
+[Webpacker] Hash: 09c4e6067054c2fcbb83
+Version: webpack 4.42.1
+Time: 13842ms
+Built at: 06/18/2020 6:27:27 PM
+                                                             Asset      Size       Chunks                         Chunk Names
+                                  js/admin-3ab64f1c37e7d5d65a9c.js  2.02 MiB        admin  [emitted] [immutable]  admin
+                              js/admin-3ab64f1c37e7d5d65a9c.js.map  1.88 MiB        admin  [emitted] [dev]        admin
+                            js/application-1e2a193a6fcd5b749f1b.js   797 KiB  application  [emitted] [immutable]  application
+                        js/application-1e2a193a6fcd5b749f1b.js.map   610 KiB  application  [emitted] [dev]        application
+                               js/sessions-a7cb231b154351412cea.js  2.02 MiB     sessions  [emitted] [immutable]  sessions
+                           js/sessions-a7cb231b154351412cea.js.map  1.87 MiB     sessions  [emitted] [dev]        sessions
+                                js/welcome-b732f3937957f751c9bd.js  2.05 MiB      welcome  [emitted] [immutable]  welcome
+                            js/welcome-b732f3937957f751c9bd.js.map   1.9 MiB      welcome  [emitted] [dev]        welcome
+                                                     manifest.json   2.1 KiB               [emitted]              
+   media/images/cidade_longe-a97c787b5226bf6b240231493ba94ece.webp  44.9 KiB               [emitted]              
+          media/images/cta01-15cdff937675292e00381705a82a5508.webp  15.8 KiB               [emitted]              
+media/images/cta01_1366x1041-4437d1a363aa1f678d1da532bb28d41f.webp  59.3 KiB               [emitted]              
+     media/images/cta01_full-dd61ca034b798985404f49afc0bec6ca.webp  80.6 KiB               [emitted]              
+         media/images/predio-a42544f86121dfc4b2bdd14f8f294325.webp  38.8 KiB               [emitted]              
+media/images/predio_1362_864-3909789aae0531c9f6837ec8bcb23041.webp   103 KiB               [emitted]              
+    media/images/predio_full-a53a50838a5780a3baa6253ad6402db8.webp   173 KiB               [emitted]              
+     media/images/rubiti_240-10ab29e727a3110d0fa8fe26908cbe16.webp  6.51 KiB               [emitted]              
+Entrypoint admin = js/admin-3ab64f1c37e7d5d65a9c.js js/admin-3ab64f1c37e7d5d65a9c.js.map
+Entrypoint application = js/application-1e2a193a6fcd5b749f1b.js js/application-1e2a193a6fcd5b749f1b.js.map
+Entrypoint sessions = js/sessions-a7cb231b154351412cea.js js/sessions-a7cb231b154351412cea.js.map
+Entrypoint welcome = js/welcome-b732f3937957f751c9bd.js js/welcome-b732f3937957f751c9bd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {admin} {application} {sessions} {welcome} [built]
+[./app/javascript/channels/index.js] 211 bytes {admin} {application} {sessions} {welcome} [built]
+[./app/javascript/images sync recursive ^\.\/.*$] ./app/javascript/images sync ^\.\/.*$ 340 bytes {sessions} {welcome} [built]
+[./app/javascript/images/cidade_longe.webp] 109 bytes {sessions} {welcome} [built]
+[./app/javascript/images/cta01.webp] 102 bytes {sessions} {welcome} [built]
+[./app/javascript/images/cta01_1366x1041.webp] 112 bytes {sessions} {welcome} [built]
+[./app/javascript/images/cta01_full.webp] 107 bytes {sessions} {welcome} [built]
+[./app/javascript/images/predio.webp] 103 bytes {sessions} {welcome} [built]
+[./app/javascript/packs/admin.js] 9.59 KiB {admin} [built]
+[./app/javascript/packs/application.js] 9.51 KiB {application} [built]
+[./app/javascript/packs/sessions.js] 9.64 KiB {sessions} [built]
+[./app/javascript/packs/welcome.js] 9.72 KiB {welcome} [built]
+[./app/javascript/stylesheets/admin/admin.scss] 712 bytes {admin} [built]
+[./app/javascript/stylesheets/sessions/sessions.scss] 715 bytes {sessions} [built]
+[./app/javascript/stylesheets/welcome/welcome.scss] 714 bytes {welcome} [built]
+    + 383 hidden modules
+
+  [1m[36mContent Load (1.9ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 16252.5ms | Allocations: 8106)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16299ms (Views: 16268.3ms | ActiveRecord: 11.7ms | Allocations: 17763)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mInformation Create (4.3ms)[0m  [1m[32mINSERT INTO "information" ("name", "short_description", "description", "phone", "email", "site", "location", "facebook", "linkedin", "github", "copyright", "copyright_short", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["name", "rubiti"], ["short_description", "sistemas web"], ["description", "Aqui não temos receita de bolo! A rubiti Sistemas Web trabalha em cada detalhe do projeto direto no código, colocando a mão na massa! Isso nos dá controle e liberdade sobre cada aspecto do empreendimento e independência de plugins pesados e desnecessários. Assim como nossa hospedagem em nuvem e em servidor independente."], ["phone", "(12)98898.7716"], ["email", "brandao@rubiti.com"], ["site", "www.rubiti.com"], ["location", "Jacareí, SP - Brasil"], ["facebook", "rubitisoft"], ["linkedin", "rubiti"], ["github", "rubiti"], ["copyright", "rubiti"], ["copyright_short", "sistemas web"], ["created_at", "2020-06-18 18:28:41.134017"], ["updated_at", "2020-06-18 18:28:41.134017"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mContent Create (0.8ms)[0m  [1m[32mINSERT INTO "contents" ("banner_title_1", "banner_content_1", "banner_title_2", "banner_content_2", "banner_title_3", "banner_content_3", "wrapper_title", "wrapper_description", "highlight_title_1", "highlight_content_1", "highlight_title_2", "highlight_content_2", "highlight_title_3", "highlight_content_3", "highlight_title_4", "highlight_content_4", "cta_title", "cta_content", "contact_title", "contact_content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22) RETURNING "id"[0m  [["banner_title_1", "Sua ideia"], ["banner_content_1", "Transformada em negócio"], ["banner_title_2", "Nossa expertise"], ["banner_content_2", "E nosso poder de realizar"], ["banner_title_3", "Seus clientes"], ["banner_content_3", "Tendo a melhor experiência"], ["wrapper_title", "Saiba um pouco mais sobre nós"], ["wrapper_description", "Alguns pontos para que você entenda qual é o nosso diferencial."], ["highlight_title_1", "Servidores em Nuvem"], ["highlight_content_1", "Projetos estão hospedados na nuvem, em servidores próprios. Isso proporciona desempenho e um aumento na segurança."], ["highlight_title_2", "Programação Open Source"], ["highlight_content_2", "Priorizamos tecnologias abertas, participando de uma comunidade mundial e colaborativa de desenvolvedores."], ["highlight_title_3", "Excelente custo-benefício"], ["highlight_content_3", "Com nosso sistema de mensalidades, nossos sites e softwares são mantidos e atualizados por preços acessíveis."], ["highlight_title_4", "Atendimento pessoal"], ["highlight_content_4", "Aqui você fala diretamente conosco, o bom atendimento é parte do nosso pacote, fortalecendo nosso diálogo e parceria."], ["cta_title", "Nossos valores"], ["cta_content", "Proporcionar aos nossos clientes o melhor retorno para seu investimento com o uso de tecnologias de ponta e o que há de melhor e mais atual no Desenvolvimento Web. Tratamos nossos clientes indiretos como diretos, e os diretos como parte de nossa equipe, incorporando à nossa missão o dever de contribuir com a sociedade através de nosso trabalho."], ["contact_title", "Contate-nos"], ["contact_content", "Entraremos em contato para trabalharmos em sua ideia e firmarmos nossa parceria."], ["created_at", "2020-06-18 18:28:41.168619"], ["updated_at", "2020-06-18 18:28:41.168619"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:28:44 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 52.8ms | Allocations: 25375)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 56.2ms | ActiveRecord: 5.3ms | Allocations: 30017)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:34:00 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 17.7ms | Allocations: 6160)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 1.9ms | Allocations: 10800)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:57:38 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (1.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 48.2ms | Allocations: 28476)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 48.9ms | ActiveRecord: 13.6ms | Allocations: 37623)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:58:40 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.7ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.8ms | Allocations: 6175)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 1.2ms | Allocations: 10707)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 18:58:44 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 12.0ms | Allocations: 6150)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 1.0ms | Allocations: 10772)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:00:20 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.8ms | Allocations: 6153)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.9ms | Allocations: 10790)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:01:32 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.6ms | Allocations: 6166)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.9ms | Allocations: 10698)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:01:54 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.8ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.9ms | Allocations: 10679)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:02:52 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.6ms | Allocations: 6166)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.9ms | Allocations: 10698)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:05:19 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.4ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.9ms | Allocations: 10680)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:06:34 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 13.8ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 1.1ms | Allocations: 10679)
+
+
+Started GET "/" for 187.106.139.231 at 2020-06-18 19:07:03 +0000
+Cannot render console from 187.106.139.231! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 9.6ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.8ms | Allocations: 10681)
+
+
+Started GET "/" for 159.69.37.33 at 2020-06-18 19:09:27 +0000
+Cannot render console from 159.69.37.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.5ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.5ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 1.0ms | Allocations: 10679)
+
+
+Started GET "/" for 82.155.213.35 at 2020-06-18 19:09:34 +0000
+Cannot render console from 82.155.213.35! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 10.2ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.8ms | Allocations: 10680)
+
+
+Started GET "/" for 82.155.213.35 at 2020-06-18 19:11:55 +0000
+Cannot render console from 82.155.213.35! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (3.0ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.7ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 20.7ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 28.8ms | ActiveRecord: 3.7ms | Allocations: 10767)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:12:17 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 13.8ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.9ms | Allocations: 10680)
+
+
+Started GET "/" for 77.111.247.197 at 2020-06-18 19:12:34 +0000
+Cannot render console from 77.111.247.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.4ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 13.7ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.9ms | Allocations: 10681)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:14:09 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (1.5ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 15.4ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 1.9ms | Allocations: 10772)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:14:12 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.9ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 18.8ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 1.3ms | Allocations: 10777)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:14:15 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 23.0ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 35.3ms | ActiveRecord: 1.0ms | Allocations: 10772)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:14:17 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.8ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 30.6ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 1.4ms | Allocations: 10766)
+
+
+Started GET "/" for 176.148.34.250 at 2020-06-18 19:15:32 +0000
+Cannot render console from 176.148.34.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.6ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.6ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 28.0ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 1.2ms | Allocations: 10773)
+
+
+Started GET "/" for 51.161.32.51 at 2020-06-18 19:15:42 +0000
+Cannot render console from 51.161.32.51! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/welcome
+  [1m[36mInformation Load (0.9ms)[0m  [1m[34mSELECT "information".* FROM "information"[0m
+  ↳ app/views/welcome/index.html.erb:6
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mContent Load (0.4ms)[0m  [1m[34mSELECT "contents".* FROM "contents"[0m
+  ↳ app/views/welcome/index.html.erb:47
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered welcome/index.html.erb within layouts/welcome (Duration: 13.9ms | Allocations: 6156)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 1.3ms | Allocations: 10836)
+
+

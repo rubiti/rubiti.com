@@ -26,7 +26,9 @@ RUN apk add --update --no-cache \
       openssl \
       pkgconfig \
       postgresql-dev \
-      python \
+      py3-setuptools \
+      py3-pip \
+      python3 \
       tzdata \
       yarn
 
